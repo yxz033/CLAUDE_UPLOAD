@@ -1,9 +1,0 @@
-15:37:32 - INFO - 文档压缩工具初始化完成
-15:37:32 - INFO - 输入目录: E:\Claude_upload\raw
-15:37:32 - INFO - 输出目录: E:\Claude_upload\output
-15:37:32 - INFO - 支持的文件类型: .txt, .doc, .jpg, .pptx, .docx, .xls, .bmp, .ppt, .png, .pdf, .tiff, .xlsx, .gif, .jpeg
-15:37:32 - INFO - 找到 3 个文件待处理
-15:37:32 - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
-15:37:32 - INFO - 文件大小: 40746.44 KB
-15:37:32 - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
-15:37:46 - WARNING - 程序已中断

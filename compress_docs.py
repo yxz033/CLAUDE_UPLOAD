@@ -642,10 +642,14 @@ class LongImageProcessor:
         logging.getLogger("paddle").setLevel(logging.ERROR)
         
     def process(self) -> str:
-        """处理长图片"""
+        """处理长图片并保存分段结果"""
         # 创建临时目录
         temp_dir = Path("temp") / self.original_file.stem
         temp_dir.mkdir(parents=True, exist_ok=True)
+        
+        # 创建分段保存目录
+        segments_dir = Path("output") / "segments" / self.original_file.stem
+        segments_dir.mkdir(parents=True, exist_ok=True)
         
         try:
             # 分析图片布局
@@ -655,11 +659,78 @@ class LongImageProcessor:
             segments = self.create_segments(text_regions)
             
             # 处理每个分段
-            processed_texts = self.process_segments(segments, temp_dir)
+            processed_texts = []
             
-            # 合并文本
+            # 创建进度条
+            with tqdm(total=len(segments), 
+                     desc="处理长图片分段", 
+                     leave=True,
+                     unit="段") as pbar:
+                
+                for i, segment in enumerate(segments, 1):
+                    try:
+                        # 保存分段图片
+                        segment_image_path = segments_dir / f"segment_{i:03d}.png"
+                        segment.image.save(segment_image_path)
+                        
+                        # 预处理分段
+                        processed_image = self.preprocess_segment(segment.image)
+                        if processed_image is None:
+                            continue
+                            
+                        # OCR识别
+                        result = self.ocr.ocr(processed_image, cls=True)
+                        if not result or not result[0]:
+                            continue
+                            
+                        # 提取文本
+                        text = ""
+                        for line in result[0]:
+                            if not line:
+                                continue
+                            text += line[1][0] + "\n"
+                            
+                        if text.strip():
+                            # 保存分段文本
+                            segment_text_path = segments_dir / f"segment_{i:03d}.txt"
+                            with open(segment_text_path, 'w', encoding='utf-8') as f:
+                                f.write(text)
+                            processed_texts.append(text)
+                            
+                    except Exception as e:
+                        self.logger.error(f"处理分段 {i} 时出错: {str(e)}")
+                        continue
+                        
+                    finally:
+                        pbar.update(1)
+            
+            # 合并所有文本
             final_text = self.merge_text(processed_texts)
             
+            # 保存合并后的完整文本
+            final_text_path = segments_dir / "merged.txt"
+            with open(final_text_path, 'w', encoding='utf-8') as f:
+                f.write(final_text)
+                
+            # 保存分段信息
+            segments_info = {
+                'total_segments': len(segments),
+                'segments': [
+                    {
+                        'index': i,
+                        'start_y': segment.start_y,
+                        'end_y': segment.end_y,
+                        'image_path': f"segment_{i:03d}.png",
+                        'text_path': f"segment_{i:03d}.txt"
+                    }
+                    for i, segment in enumerate(segments, 1)
+                ]
+            }
+            
+            with open(segments_dir / "segments_info.json", 'w', encoding='utf-8') as f:
+                json.dump(segments_info, f, ensure_ascii=False, indent=2)
+            
+            self.logger.info(f"分段结果已保存到: {segments_dir}")
             return final_text
             
         except Exception as e:
@@ -673,7 +744,7 @@ class LongImageProcessor:
                 shutil.rmtree(temp_dir)
             except Exception as e:
                 self.logger.error(f"清理临时文件失败: {str(e)}")
-            
+
     def analyze_layout(self) -> List[Tuple[int, int, int, int]]:
         """分析图片布局,返回文本区域列表"""
         try:
@@ -714,50 +785,60 @@ class LongImageProcessor:
             return []
             
     def create_segments(self, text_regions: List[Tuple[int, int, int, int]]) -> List[ImageSegment]:
-        """根据文本区域创建图片分段"""
+        """根据文本区域创建智能分段"""
         try:
             segments = []
             image_width, image_height = self.image.size
-        
+            
             if not text_regions:
                 # 如果没有检测到文本区域,使用固定分段高度
                 segment_height = 3000  # 默认分段高度
-                for y in range(0, image_height, segment_height):
-                    # 添加重叠区域
-                    start_y = max(0, y - self.overlap)
-                    end_y = min(image_height, y + segment_height + self.overlap)
+                current_y = 0
+                
+                while current_y < image_height:
+                    end_y = min(current_y + segment_height, image_height)
                     
                     # 创建分段
-                    segment = self.image.crop((0, start_y, image_width, end_y))
-                    segments.append(ImageSegment(segment, start_y, end_y, self.overlap))
+                    segment = self.image.crop((0, current_y, image_width, end_y))
+                    segments.append(ImageSegment(segment, current_y, end_y, 0))  # 不使用重叠
+                    
+                    current_y = end_y  # 移动到下一个分段起点
+                    
             else:
-                # 根据文本区域创建分段
-                current_y = 0
-                for region in text_regions:
+                # 按文本区域智能分段
+                # 首先对文本区域按y坐标排序
+                sorted_regions = sorted(text_regions, key=lambda r: r[1])
+                
+                # 合并临近的文本区域
+                merged_regions = []
+                current_region = list(sorted_regions[0])
+                
+                for region in sorted_regions[1:]:
+                    x1, y1, x2, y2 = region
+                    # 如果当前区域与上一个区域距离小于阈值,则合并
+                    if y1 - current_region[3] < 100:  # 100像素的合并阈值
+                        current_region[2] = max(current_region[2], x2)
+                        current_region[3] = max(current_region[3], y2)
+                    else:
+                        merged_regions.append(tuple(current_region))
+                        current_region = list(region)
+                
+                merged_regions.append(tuple(current_region))
+                
+                # 根据合并后的区域创建分段
+                for i, region in enumerate(merged_regions):
                     x1, y1, x2, y2 = region
                     
-                    # 如果当前区域太大,需要分割
+                    # 处理过大的区域
                     if y2 - y1 > 3000:
-                        while y1 < y2:
-                            segment_end = min(y1 + 3000, y2)
-                            # 添加重叠区域
-                            segment_start = max(0, y1 - self.overlap)
-                            segment_end = min(image_height, segment_end + self.overlap)
-                            
-                            # 创建分段
-                            segment = self.image.crop((0, segment_start, image_width, segment_end))
-                            segments.append(ImageSegment(segment, segment_start, segment_end, self.overlap))
-                            y1 = segment_end - self.overlap
+                        # 在文本行边界处分割
+                        sub_regions = self._split_large_region(region)
+                        for sub_y1, sub_y2 in sub_regions:
+                            segment = self.image.crop((0, sub_y1, image_width, sub_y2))
+                            segments.append(ImageSegment(segment, sub_y1, sub_y2, 0))
                     else:
-                        # 添加重叠区域
-                        segment_start = max(0, y1 - self.overlap)
-                        segment_end = min(image_height, y2 + self.overlap)
-                        
-                        # 创建分段
-                        segment = self.image.crop((0, segment_start, image_width, segment_end))
-                        segments.append(ImageSegment(segment, segment_start, segment_end, self.overlap))
-                    
-                    current_y = y2
+                        segment = self.image.crop((0, y1, image_width, y2))
+                        segments.append(ImageSegment(segment, y1, y2, 0))
             
             return segments
             
@@ -765,6 +846,81 @@ class LongImageProcessor:
             self.logger.error(f"创建分段时出错: {str(e)}")
             return []
             
+    def _split_large_region(self, region: Tuple[int, int, int, int]) -> List[Tuple[int, int]]:
+        """智能分割大文本区域"""
+        x1, y1, x2, y2 = region
+        height = y2 - y1
+        
+        if height <= 3000:
+            return [(y1, y2)]
+            
+        # 使用OCR检测文本行
+        region_image = self.image.crop(region)
+        result = self.ocr.ocr(np.array(region_image), cls=True)
+        
+        if not result or not result[0]:
+            # 如果OCR失败,使用固定大小分割
+            sub_regions = []
+            current_y = y1
+            while current_y < y2:
+                next_y = min(current_y + 3000, y2)
+                sub_regions.append((current_y, next_y))
+                current_y = next_y
+            return sub_regions
+            
+        # 获取所有文本行的y坐标
+        text_lines = []
+        for line in result[0]:
+            if not line:
+                continue
+            points = line[0]
+            min_y = min(p[1] for p in points)
+            max_y = max(p[1] for p in points)
+            text_lines.append((min_y, max_y))
+            
+        # 按y坐标排序
+        text_lines.sort(key=lambda x: x[0])
+        
+        # 智能分割点
+        split_points = [y1]
+        current_height = 0
+        last_line_end = text_lines[0][0]
+        
+        for line_start, line_end in text_lines:
+            if current_height + (line_end - last_line_end) > 3000:
+                # 在行间距最大的地方分割
+                best_split = self._find_best_split_point(text_lines, last_line_end, line_start)
+                split_points.append(best_split)
+                current_height = line_end - best_split
+            else:
+                current_height += line_end - last_line_end
+            last_line_end = line_end
+            
+        split_points.append(y2)
+        
+        # 生成分段区域
+        return list(zip(split_points[:-1], split_points[1:]))
+        
+    def _find_best_split_point(self, text_lines: List[Tuple[int, int]], start: int, end: int) -> int:
+        """找到最佳分割点(行间距最大的位置)"""
+        if start >= end:
+            return start
+            
+        # 计算所有行间距
+        gaps = []
+        for i in range(len(text_lines) - 1):
+            current_end = text_lines[i][1]
+            next_start = text_lines[i + 1][0]
+            if current_end >= start and next_start <= end:
+                gaps.append((next_start - current_end, current_end))
+                
+        if not gaps:
+            return (start + end) // 2
+            
+        # 返回间距最大的位置
+        max_gap = max(gaps, key=lambda x: x[0])
+        return max_gap[1]
+
     def process_segments(self, segments: List[ImageSegment], temp_dir: Path) -> List[str]:
         """处理每个分段"""
         processed_texts = []
@@ -846,23 +1002,19 @@ class LongImageProcessor:
             return None
             
     def merge_text(self, texts: List[str]) -> str:
-        """合并处理后的文本"""
-        if not texts:
-            return ""
-            
-        # 合并文本并去重
-        merged_text = "\n".join(texts)
-        lines = merged_text.split("\n")
-        unique_lines = []
-        seen = set()
+        """合并文本列表
         
-        for line in lines:
-            line = line.strip()
-            if line and line not in seen:
-                seen.add(line)
-                unique_lines.append(line)
-                
-        return "\n".join(unique_lines)
+        Args:
+            texts: 要合并的文本列表
+            
+        Returns:
+            合并后的文本
+        """
+        # 过滤掉空文本
+        valid_texts = [text for text in texts if text.strip()]
+        
+        # 用双换行符连接所有有效文本
+        return "\n\n".join(valid_texts)
 
 class TempFilePool:
     """临时文件池"""
@@ -1129,9 +1281,15 @@ class ParallelProcessor:
         """串行处理文件"""
         results = []
         
-        # 创建总进度条
-        with tqdm(total=len(files), desc="处理文件", leave=True,
-                 mininterval=0.5, maxinterval=1.0) as pbar:
+        # 创建总进度条(位置0)
+        with tqdm(total=len(files), 
+                 desc="总进度", 
+                 position=0,
+                 leave=True,
+                 unit="文件",
+                 bar_format="{desc} |{bar}| {n_fmt}/{total_fmt}文件 "
+                           "[已用时:{elapsed}剩余:{remaining}, "
+                           "处理速度:{rate_fmt}]") as pbar:
             # 串行处理每个文件
             for file_path in files:
                 try:
@@ -1260,16 +1418,12 @@ class ParallelProcessor:
             # 打开PDF文件
             pdf_document = fitz.open(file_path)
             
-            # 创建临时目录用于保存提取的图片
-            temp_dir = Path("temp") / file_path.stem
-            temp_dir.mkdir(parents=True, exist_ok=True)
-            
             all_texts = []
             
             # 获取文件大小(MB)
             file_size_mb = file_path.stat().st_size / (1024 * 1024)
             
-            # 创建PDF页面进度条
+            # 创建PDF页面进度条(位置0)
             with tqdm(total=len(pdf_document), 
                      desc=f"处理PDF: {file_path.name}", 
                      position=0, 
@@ -1284,19 +1438,29 @@ class ParallelProcessor:
                         # 获取页面
                         page = pdf_document[page_num]
                         
-                        # 提取图片
-                        image_list = page.get_images()
+                        # 检查是否有原生文本层
+                        if self.has_text_layer(page):
+                            self.logger.info(f"第{page_num + 1}页: 发现原生文本层")
+                            # 直接处理为图片，因为FireShot生成的PDF不应该有原生文本层
+                            self.logger.info(f"第{page_num + 1}页: 将作为图片处理")
+                        else:
+                            self.logger.info(f"第{page_num + 1}页: 未发现原生文本层,将进行OCR处理")
                         
-                        # 如果页面包含图片,创建图片处理进度条
+                        # 提取并处理图片
+                        image_list = page.get_images()
                         if image_list:
-                            with tqdm(total=len(image_list), 
-                                    desc=f"第{page_num + 1}页图片", 
-                                    position=1, 
-                                    leave=False,
-                                    unit="张",
-                                    bar_format="{desc} |{bar}| {n_fmt}/{total_fmt}张 "
-                                              "[已用时:{elapsed}剩余:{remaining}, "
-                                              "处理速度:{rate_fmt}]") as img_pbar:
+                            self.logger.info(f"第{page_num + 1}页: 发现{len(image_list)}个图片")
+                            
+                            # 创建OCR处理进度条(位置1)
+                            with tqdm(total=len(image_list),
+                                     desc=f"OCR处理: 第{page_num + 1}页",
+                                     position=1,
+                                     leave=False,
+                                     unit="图",
+                                     bar_format="{desc} |{bar}| {n_fmt}/{total_fmt}图 "
+                                               "[已用时:{elapsed}剩余:{remaining}, "
+                                               "处理速度:{rate_fmt}]") as ocr_pbar:
+                                
                                 for img_index, img_info in enumerate(image_list):
                                     try:
                                         # 获取图片
@@ -1306,38 +1470,19 @@ class ParallelProcessor:
                                         # 转换为PIL图片
                                         image = Image.open(io.BytesIO(image_bytes))
                                         
-                                        # 检查是否为长图片
-                                        if image.height > image.width * 3:
-                                            self.logger.info(f"检测到长图片: 第{page_num + 1}页, 图片{img_index + 1}")
-                                            
-                                            # 保存图片到临时文件
-                                            temp_file = temp_dir / f"page_{page_num + 1}_img_{img_index + 1}.png"
-                                            image.save(temp_file)
-                                            
-                                            # 使用长图片处理器处理
-                                            processor = LongImageProcessor(image, self.ocr, self.ocr_config, temp_file)
-                                            text = processor.process()
-                                            
-                                            if text.strip():
-                                                all_texts.append(text)
-                                        else:
-                                            # 使用普通OCR处理
-                                            text = self.ocr_image(image)
-                                            if text.strip():
-                                                all_texts.append(text)
-                                                
-                                        # 更新图片进度条
-                                        img_pbar.update(1)
+                                        # OCR处理图片
+                                        text = self.ocr_image(image)
+                                        if text.strip():
+                                            all_texts.append(text)
                                             
                                     except Exception as e:
                                         self.logger.error(f"处理图片失败: 第{page_num + 1}页, 图片{img_index + 1}")
                                         self.logger.error(str(e))
                                         continue
-                        
-                        # 提取页面文本
-                        page_text = page.get_text()
-                        if page_text.strip():
-                            all_texts.append(page_text)
+                                        
+                                    finally:
+                                        # 更新OCR进度条
+                                        ocr_pbar.update(1)
                             
                     except Exception as e:
                         self.logger.error(f"处理PDF页面失败: 第{page_num + 1}页")
@@ -1354,7 +1499,7 @@ class ParallelProcessor:
                             mb_per_sec = file_size_mb * (page_num + 1) / (len(pdf_document) * elapsed_time)
                             pdf_pbar.set_postfix({"处理速度": f"{mb_per_sec:.2f}MB/s"})
             
-            # 合并所有文本
+            # 简单合并所有文本(按顺序)
             final_text = "\n\n".join(all_texts)
             
             # 保存结果
@@ -1373,19 +1518,67 @@ class ParallelProcessor:
             self.logger.error(f"处理PDF文件失败: {str(e)}")
             self.logger.error(f"错误详情: {traceback.format_exc()}")
             return False
-            
-        finally:
-            # 清理临时文件
-            if 'temp_dir' in locals():
-                try:
-                    import shutil
-                    shutil.rmtree(temp_dir)
-                except:
-                    pass
 
     def shutdown(self):
         """关闭处理器"""
         self.image_processor.shutdown()
+
+    def is_valid_text_layer(self, text: str) -> bool:
+        """检查文本层是否有效
+        
+        Args:
+            text: 提取的文本内容
+            
+        Returns:
+            bool: 是否是有效的文本层
+        """
+        if not text or not text.strip():
+            return False
+            
+        # 检查文本长度
+        text = text.strip()
+        if len(text) < 10:  # 太短的文本可能是误判
+            return False
+            
+        # 检查是否包含足够的可见字符
+        visible_chars = sum(1 for c in text if c.isprintable() and not c.isspace())
+        if visible_chars < 10:
+            return False
+            
+        # 检查是否全是特殊字符
+        special_chars = set('.,!@#$%^&*()_+-=[]{}|;:\'\"<>?/\\')
+        text_chars = set(text)
+        if not text_chars - special_chars:
+            return False
+            
+        return True
+
+    def has_text_layer(self, page) -> bool:
+        """检查PDF页面是否有原生文本层
+        
+        Args:
+            page: PDF页面对象
+            
+        Returns:
+            bool: 是否存在原生文本层
+        """
+        try:
+            # 获取页面内容流
+            content = page.get_contents()
+            if not content:
+                return False
+                
+            # 检查是否包含文本操作符
+            text_operators = [b'Tj', b'TJ', b'Tm', b'T*']
+            for operator in text_operators:
+                if operator in content.tobytes():
+                    return True
+                    
+            return False
+            
+        except Exception as e:
+            self.logger.error(f"检查文本层失败: {str(e)}")
+            return False
 
 class OCRManager:
     """OCR引擎管理器(单例模式)"""
@@ -1559,23 +1752,54 @@ class DocumentCompressor:
             raise
 
     def compress_text(self, text):
-        """简化的文本压缩"""
+        """改进的文本压缩和去重"""
         if not text:
             return ""
             
-        # 分割成行并去重
-        lines = text.split('\n')
-        unique_lines = []
-        seen = set()
+        # 分割成段落
+        paragraphs = text.split('\n\n')
+        unique_paragraphs = []
+        seen_content = set()
         
-        for line in lines:
-            line = line.strip()
-            if line and line not in seen:
-                unique_lines.append(line)
-                seen.add(line)
+        for para in paragraphs:
+            # 规范化段落文本用于比较
+            norm_para = ' '.join(para.split()).lower()
+            if not norm_para:
+                continue
+                
+            # 检查是否是重复内容
+            is_duplicate = False
+            for seen in seen_content:
+                # 如果当前段落是已有内容的子集,或者已有内容是当前段落的子集
+                if norm_para in seen or seen in norm_para:
+                    is_duplicate = True
+                    break
+                    
+                # 计算相似度
+                if len(norm_para) > 10 and len(seen) > 10:
+                    similarity = self._calc_similarity(norm_para, seen)
+                    if similarity > 0.8:  # 相似度阈值
+                        is_duplicate = True
+                        break
+            
+            if not is_duplicate:
+                unique_paragraphs.append(para)
+                seen_content.add(norm_para)
         
-        # 合并处理后的行
-        return '\n'.join(unique_lines).strip()
+        # 合并处理后的段落
+        return '\n\n'.join(unique_paragraphs).strip()
+        
+    def _calc_similarity(self, text1, text2):
+        """计算两段文本的相似度"""
+        # 将文本分割成词
+        words1 = set(text1.split())
+        words2 = set(text2.split())
+        
+        # 计算Jaccard相似度
+        intersection = len(words1.intersection(words2))
+        union = len(words1.union(words2))
+        
+        return intersection / union if union > 0 else 0
 
     def log(self, message):
         """添加日志到缓存"""
@@ -1718,15 +1942,17 @@ class DocumentCompressor:
                 original_size = image.size
                 self.logger.debug(f"原始图片尺寸: {original_size}")
                 
+                output_file = None  # 初始化输出文件变量
+                
                 # 如果是长截图,使用长图片处理器
                 if original_size[1] > original_size[0] * 3:
                     self.logger.info("检测到长截图,使用长图片处理器...")
                     
-                    # 使用临时文件池获取临时文件
-                    temp_file = self.temp_file_pool.get_temp_file(prefix=f"{file_path.stem}_")
                     try:
-                        # 保存原始图片
-                        image.save(temp_file)
+                        # 创建输出目录
+                        segments_dir = Path("output") / "segments" / file_path.stem
+                        segments_dir.mkdir(parents=True, exist_ok=True)
+                        self.logger.info(f"创建分段输出目录: {segments_dir}")
                         
                         # 创建长图片处理器
                         processor = LongImageProcessor(image, self.ocr, self.config, file_path)
@@ -1734,52 +1960,84 @@ class DocumentCompressor:
                         # 处理图片
                         with self.memory_manager.monitor_memory("长图片处理"):
                             text = processor.process()
-                    finally:
-                        # 归还临时文件到池中
-                        self.temp_file_pool.return_temp_file(temp_file)
+                            
+                        if not text.strip():
+                            raise OCRError(
+                                "OCR未能识别出文本",
+                                "OCR_RECOGNITION_FAILED",
+                                {"file": str(file_path)}
+                            )
+                            
+                        # 保存最终结果
+                        output_file = self.output_dir / f"{file_path.stem}_compressed.txt"
+                        with open(output_file, 'w', encoding='utf-8') as f:
+                            f.write(text)
+                            
+                        self.logger.info(f"处理完成,结果已保存到:")
+                        self.logger.info(f"- 分段结果: {segments_dir}")
+                        self.logger.info(f"- 合并文本: {output_file}")
+                        
+                    except Exception as e:
+                        self.logger.error(f"处理长图片时出错: {str(e)}")
+                        self.logger.error(f"错误详情: {traceback.format_exc()}")
+                        raise
+                        
+                else:
+                    # 处理普通图片...
+                    processed_image = self.image_processor.preprocess_image(image)
+                    if processed_image is None:
+                        raise ImageProcessError(
+                            "图片预处理失败",
+                            "IMAGE_PROCESS_FAILED",
+                            {"file": str(file_path)}
+                        )
+                    
+                    # 将处理后的图片转换回PIL格式
+                    processed_image = Image.fromarray(cv2.cvtColor(processed_image, cv2.COLOR_BGR2RGB))
+                    
+                    # OCR处理
+                    text = self.ocr_image(processed_image)
+                    if not text.strip():
+                        raise OCRError(
+                            "OCR未能识别出文本",
+                            "OCR_RECOGNITION_FAILED",
+                            {"file": str(file_path)}
+                        )
+                    
+                    # 保存结果
+                    output_file = self.output_dir / f"{file_path.stem}_compressed.txt"
+                    with open(output_file, 'w', encoding='utf-8') as f:
+                        f.write(text)
                 
-                if not text.strip():
-                    raise OCRError(
-                        "OCR未能识别出文本",
-                        "OCR_RECOGNITION_FAILED",
-                        {"file": str(file_path)}
+                if output_file and output_file.exists():
+                    # 更新统计信息
+                    self.stats['total_size_before'] += file_path.stat().st_size
+                    self.stats['total_size_after'] += output_file.stat().st_size
+                    self.stats['processed'] += 1
+                        
+                    # 记录性能数据
+                    end_time = time.time()
+                    self.logger.log_performance(
+                        "图片处理",
+                        start_time,
+                        end_time,
+                        self.memory_manager.get_memory_usage(),
+                        {
+                            "file": str(file_path),
+                            "original_size": original_size,
+                            "compressed_size": output_file.stat().st_size
+                        }
                     )
                     
-                    # 简化文本压缩
-                    self.logger.info("压缩识别出的文本...")
-                compressed_text = self.compress_text(text)
-                
-                # 保存结果
-                output_file = self.output_dir / f"{file_path.stem}_compressed.txt"
-                with open(output_file, 'w', encoding='utf-8') as f:
-                    f.write(compressed_text)
-                
-                # 更新统计信息
-                self.stats['total_size_before'] += file_path.stat().st_size
-                self.stats['total_size_after'] += output_file.stat().st_size
-                self.stats['processed'] += 1
+                    # 显示处理结果
+                    self.logger.info(f"✓ {file_path.name} 处理成功")
+                    self.logger.info(f"  - 原始大小: {file_path.stat().st_size / 1024:.2f} KB")
+                    self.logger.info(f"  - 压缩大小: {output_file.stat().st_size / 1024:.2f} KB")
+                    self.logger.info(f"  - 压缩比: {output_file.stat().st_size / file_path.stat().st_size:.2%}")
                     
-                # 记录性能数据
-                end_time = time.time()
-                self.logger.log_performance(
-                    "长图片处理",
-                    start_time,
-                    end_time,
-                    self.memory_manager.get_memory_usage(),
-                    {
-                        "file": str(file_path),
-                        "original_size": original_size,
-                        "compressed_size": output_file.stat().st_size
-                    }
-                )
+                    return True
                 
-                # 显示处理结果
-                self.logger.info(f"✓ {file_path.name} 处理成功")
-                self.logger.info(f"  - 原始大小: {file_path.stat().st_size / 1024:.2f} KB")
-                self.logger.info(f"  - 压缩大小: {output_file.stat().st_size / 1024:.2f} KB")
-                self.logger.info(f"  - 压缩比: {output_file.stat().st_size / file_path.stat().st_size:.2%}")
-                
-                return True
+                return False
                 
         except Exception as e:
             self.logger.error(f"图片处理失败: {str(e)}")

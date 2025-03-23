@@ -1369,3 +1369,239 @@ AttributeError: 'ParallelProcessor' object has no attribute 'ocr_image'
 2025-03-23 15:51:14 - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
 2025-03-23 15:51:14 - INFO - 文件大小: 40746.44 KB
 2025-03-23 15:51:14 - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
+2025-03-23 18:33:01 - DEBUG - 创建目录: raw
+2025-03-23 18:33:01 - DEBUG - 创建目录: output
+2025-03-23 18:33:01 - DEBUG - 创建目录: temp
+2025-03-23 18:33:01 - INFO - 文档压缩工具初始化完成
+2025-03-23 18:33:01 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 18:33:01 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 18:33:01 - INFO - 支持的文件类型: .doc, .txt, .ppt, .pptx, .bmp, .jpeg, .xlsx, .tiff, .gif, .pdf, .docx, .jpg, .xls, .png
+2025-03-23 18:33:01 - INFO - 找到 1 个文件待处理
+2025-03-23 18:33:01 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 18:33:01 - INFO - 文件大小: 4001.28 KB
+2025-03-23 18:33:01 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 18:34:42 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 18:34:42 - INFO -   - 原始大小: 4001.28 KB
+2025-03-23 18:34:42 - INFO -   - 压缩大小: 46.81 KB
+2025-03-23 18:34:42 - INFO -   - 压缩比: 1.17%
+2025-03-23 18:34:42 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 18:38:59 - DEBUG - 创建目录: raw
+2025-03-23 18:38:59 - DEBUG - 创建目录: output
+2025-03-23 18:38:59 - DEBUG - 创建目录: temp
+2025-03-23 18:38:59 - INFO - 文档压缩工具初始化完成
+2025-03-23 18:38:59 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 18:38:59 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 18:38:59 - INFO - 支持的文件类型: .bmp, .ppt, .jpeg, .jpg, .txt, .docx, .tiff, .xls, .pdf, .pptx, .png, .xlsx, .gif, .doc
+2025-03-23 18:38:59 - INFO - 找到 1 个文件待处理
+2025-03-23 18:38:59 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 18:38:59 - INFO - 文件大小: 4001.28 KB
+2025-03-23 18:38:59 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 18:40:53 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 18:40:53 - INFO -   - 原始大小: 4001.28 KB
+2025-03-23 18:40:53 - INFO -   - 压缩大小: 46.81 KB
+2025-03-23 18:40:53 - INFO -   - 压缩比: 1.17%
+2025-03-23 18:40:53 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 18:42:24 - DEBUG - 创建目录: raw
+2025-03-23 18:42:24 - DEBUG - 创建目录: output
+2025-03-23 18:42:24 - DEBUG - 创建目录: temp
+2025-03-23 18:42:24 - INFO - 文档压缩工具初始化完成
+2025-03-23 18:42:24 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 18:42:24 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 18:42:24 - INFO - 支持的文件类型: .gif, .pdf, .png, .tiff, .docx, .jpeg, .ppt, .xlsx, .pptx, .bmp, .xls, .doc, .jpg, .txt
+2025-03-23 18:42:24 - INFO - 找到 1 个文件待处理
+2025-03-23 18:42:24 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 18:42:24 - INFO - 文件大小: 4001.28 KB
+2025-03-23 18:42:24 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 18:44:06 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 18:44:06 - INFO -   - 原始大小: 4001.28 KB
+2025-03-23 18:44:06 - INFO -   - 压缩大小: 46.81 KB
+2025-03-23 18:44:06 - INFO -   - 压缩比: 1.17%
+2025-03-23 18:44:06 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 18:51:44 - DEBUG - 创建目录: raw
+2025-03-23 18:51:44 - DEBUG - 创建目录: output
+2025-03-23 18:51:44 - DEBUG - 创建目录: temp
+2025-03-23 18:51:44 - INFO - 文档压缩工具初始化完成
+2025-03-23 18:51:44 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 18:51:44 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 18:51:44 - INFO - 支持的文件类型: .pptx, .xls, .jpeg, .ppt, .docx, .pdf, .tiff, .txt, .doc, .xlsx, .jpg, .png, .bmp, .gif
+2025-03-23 18:51:44 - INFO - 找到 1 个文件待处理
+2025-03-23 18:51:44 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 18:51:44 - INFO - 文件大小: 4001.28 KB
+2025-03-23 18:51:44 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 18:53:23 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 18:53:23 - INFO -   - 原始大小: 4001.28 KB
+2025-03-23 18:53:23 - INFO -   - 压缩大小: 46.81 KB
+2025-03-23 18:53:23 - INFO -   - 压缩比: 1.17%
+2025-03-23 18:53:23 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 19:00:10 - DEBUG - 创建目录: raw
+2025-03-23 19:00:10 - DEBUG - 创建目录: output
+2025-03-23 19:00:10 - DEBUG - 创建目录: temp
+2025-03-23 19:00:10 - INFO - 文档压缩工具初始化完成
+2025-03-23 19:00:10 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 19:00:10 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 19:00:10 - INFO - 支持的文件类型: .xls, .ppt, .pptx, .txt, .png, .gif, .pdf, .docx, .jpg, .bmp, .doc, .tiff, .xlsx, .jpeg
+2025-03-23 19:00:10 - INFO - 找到 1 个文件待处理
+2025-03-23 19:00:10 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:00:10 - INFO - 文件大小: 4001.28 KB
+2025-03-23 19:00:10 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:01:54 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 19:01:54 - INFO -   - 原始大小: 4001.28 KB
+2025-03-23 19:01:54 - INFO -   - 压缩大小: 46.81 KB
+2025-03-23 19:01:54 - INFO -   - 压缩比: 1.17%
+2025-03-23 19:01:54 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 19:05:03 - DEBUG - 创建目录: raw
+2025-03-23 19:05:03 - DEBUG - 创建目录: output
+2025-03-23 19:05:03 - DEBUG - 创建目录: temp
+2025-03-23 19:05:03 - INFO - 文档压缩工具初始化完成
+2025-03-23 19:05:03 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 19:05:03 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 19:05:03 - INFO - 支持的文件类型: .gif, .xlsx, .tiff, .png, .pdf, .doc, .jpg, .jpeg, .txt, .pptx, .xls, .ppt, .docx, .bmp
+2025-03-23 19:05:03 - INFO - 找到 1 个文件待处理
+2025-03-23 19:05:03 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:05:03 - INFO - 文件大小: 4001.28 KB
+2025-03-23 19:05:03 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:05:03 - INFO - 创建分段输出目录: output\segments\FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do]
+2025-03-23 19:06:45 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 19:06:45 - INFO -   - 原始大小: 4001.28 KB
+2025-03-23 19:06:45 - INFO -   - 压缩大小: 46.81 KB
+2025-03-23 19:06:45 - INFO -   - 压缩比: 1.17%
+2025-03-23 19:06:45 - INFO -   - 分段结果保存在: output\segments\FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do]
+2025-03-23 19:06:45 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 19:20:14 - DEBUG - 创建目录: raw
+2025-03-23 19:20:14 - DEBUG - 创建目录: output
+2025-03-23 19:20:14 - DEBUG - 创建目录: temp
+2025-03-23 19:20:14 - INFO - 文档压缩工具初始化完成
+2025-03-23 19:20:14 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 19:20:14 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 19:20:14 - INFO - 支持的文件类型: .xlsx, .docx, .txt, .pdf, .png, .gif, .jpeg, .bmp, .tiff, .xls, .pptx, .jpg, .ppt, .doc
+2025-03-23 19:20:14 - INFO - 找到 1 个文件待处理
+2025-03-23 19:20:14 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:20:14 - INFO - 文件大小: 4001.28 KB
+2025-03-23 19:20:14 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:20:14 - INFO - 创建分段输出目录: output\segments\FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do]
+2025-03-23 19:20:14 - INFO - 第1页: 发现文本层
+2025-03-23 19:20:14 - INFO - 第1页: 发现15个图片
+2025-03-23 19:21:57 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 19:21:57 - INFO -   - 原始大小: 4001.28 KB
+2025-03-23 19:21:57 - INFO -   - 压缩大小: 46.81 KB
+2025-03-23 19:21:57 - INFO -   - 压缩比: 1.17%
+2025-03-23 19:21:57 - INFO -   - 分段结果保存在: output\segments\FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do]
+2025-03-23 19:21:57 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 19:25:28 - DEBUG - 创建目录: raw
+2025-03-23 19:25:28 - DEBUG - 创建目录: output
+2025-03-23 19:25:28 - DEBUG - 创建目录: temp
+2025-03-23 19:25:28 - INFO - 文档压缩工具初始化完成
+2025-03-23 19:25:28 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 19:25:28 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 19:25:28 - INFO - 支持的文件类型: .docx, .jpeg, .pdf, .ppt, .tiff, .pptx, .xlsx, .xls, .bmp, .txt, .jpg, .png, .gif, .doc
+2025-03-23 19:25:28 - INFO - 找到 1 个文件待处理
+2025-03-23 19:25:28 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:25:28 - INFO - 文件大小: 4001.28 KB
+2025-03-23 19:25:28 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:25:28 - INFO - 创建分段输出目录: output\segments\FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do]
+2025-03-23 19:25:29 - INFO - 第1页: 发现有效文本层
+2025-03-23 19:25:29 - DEBUG - 文本层内容预览: 注册 
+登录 
+Where possible begins 
+希望你喜欢这里。有问题，请提问，或搜索现有帖子。 
+真诚 、 友善 、 团结 、 专业 ，共建你我引以为荣之社区。 《常见问题解答》 
+最...
+2025-03-23 19:25:29 - INFO - 第1页: 发现15个图片
+2025-03-23 19:26:22 - WARNING - 程序已中断
+2025-03-23 19:32:28 - DEBUG - 创建目录: raw
+2025-03-23 19:32:28 - DEBUG - 创建目录: output
+2025-03-23 19:32:28 - DEBUG - 创建目录: temp
+2025-03-23 19:32:28 - INFO - 文档压缩工具初始化完成
+2025-03-23 19:32:28 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 19:32:28 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 19:32:28 - INFO - 支持的文件类型: .pptx, .png, .ppt, .jpg, .bmp, .txt, .pdf, .xlsx, .gif, .jpeg, .doc, .xls, .tiff, .docx
+2025-03-23 19:32:28 - INFO - 找到 1 个文件待处理
+2025-03-23 19:32:28 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:32:28 - INFO - 文件大小: 4001.28 KB
+2025-03-23 19:32:28 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:32:28 - INFO - 创建分段输出目录: output\segments\FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do]
+2025-03-23 19:32:28 - INFO - 第1页: 发现原生文本层
+2025-03-23 19:32:28 - DEBUG - 文本层内容预览: 注册 
+登录 
+Where possible begins 
+希望你喜欢这里。有问题，请提问，或搜索现有帖子。 
+真诚 、 友善 、 团结 、 专业 ，共建你我引以为荣之社区。 《常见问题解答》 
+最...
+2025-03-23 19:32:28 - INFO - 第1页: 发现15个图片
+2025-03-23 19:32:39 - WARNING - 程序已中断
+2025-03-23 19:37:07 - DEBUG - 创建目录: raw
+2025-03-23 19:37:07 - DEBUG - 创建目录: output
+2025-03-23 19:37:07 - DEBUG - 创建目录: temp
+2025-03-23 19:37:07 - INFO - 文档压缩工具初始化完成
+2025-03-23 19:37:07 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 19:37:07 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 19:37:07 - INFO - 支持的文件类型: .pptx, .jpeg, .jpg, .docx, .pdf, .bmp, .doc, .txt, .tiff, .png, .gif, .xlsx, .ppt, .xls
+2025-03-23 19:37:07 - INFO - 找到 1 个文件待处理
+2025-03-23 19:37:07 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:37:07 - INFO - 文件大小: 4001.28 KB
+2025-03-23 19:37:07 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:37:07 - INFO - 创建分段输出目录: output\segments\FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do]
+2025-03-23 19:37:07 - DEBUG - 找到文本对象: 注册 
+登录 
+
+2025-03-23 19:37:07 - INFO - 第1页: 发现原生文本层
+2025-03-23 19:37:07 - DEBUG - 文本层内容预览: 注册 
+登录 
+
+Where possible begins 
+
+希望你喜欢这里。有问题，请提问，或搜索现有帖子。 
+
+真诚 、 友善 、 团结 、 专业 ，共建你我引以为荣之社区。 《常见问题解答》...
+2025-03-23 19:37:07 - INFO - 第1页: 发现15个图片
+2025-03-23 19:37:10 - WARNING - 程序已中断
+2025-03-23 19:38:51 - DEBUG - 创建目录: raw
+2025-03-23 19:38:51 - DEBUG - 创建目录: output
+2025-03-23 19:38:51 - DEBUG - 创建目录: temp
+2025-03-23 19:38:51 - INFO - 文档压缩工具初始化完成
+2025-03-23 19:38:51 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 19:38:51 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 19:38:51 - INFO - 支持的文件类型: .png, .pdf, .jpeg, .xls, .jpg, .ppt, .bmp, .pptx, .xlsx, .tiff, .txt, .docx, .doc, .gif
+2025-03-23 19:38:51 - INFO - 找到 1 个文件待处理
+2025-03-23 19:38:51 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:38:51 - INFO - 文件大小: 4001.28 KB
+2025-03-23 19:38:51 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:38:51 - INFO - 创建分段输出目录: output\segments\FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do]
+2025-03-23 19:38:51 - ERROR - 检查文本层时出错: 'Page' object has no attribute 'get_resources'
+2025-03-23 19:38:51 - INFO - 第1页: 未发现原生文本层,将进行OCR处理
+2025-03-23 19:38:51 - INFO - 第1页: 发现15个图片
+2025-03-23 19:40:34 - WARNING - 程序已中断
+2025-03-23 19:41:35 - DEBUG - 创建目录: raw
+2025-03-23 19:41:35 - DEBUG - 创建目录: output
+2025-03-23 19:41:35 - DEBUG - 创建目录: temp
+2025-03-23 19:41:35 - INFO - 文档压缩工具初始化完成
+2025-03-23 19:41:35 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 19:41:35 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 19:41:35 - INFO - 支持的文件类型: .pdf, .ppt, .docx, .jpg, .txt, .jpeg, .png, .doc, .xlsx, .tiff, .gif, .xls, .bmp, .pptx
+2025-03-23 19:41:35 - INFO - 找到 1 个文件待处理
+2025-03-23 19:41:35 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:41:35 - INFO - 文件大小: 4001.28 KB
+2025-03-23 19:41:35 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:41:35 - ERROR - 检查文本层失败: 'list' object has no attribute 'tobytes'
+2025-03-23 19:41:35 - INFO - 第1页: 未发现原生文本层,将进行OCR处理
+2025-03-23 19:41:35 - INFO - 第1页: 发现15个图片
+2025-03-23 19:43:33 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 19:43:33 - INFO -   - 原始大小: 4001.28 KB
+2025-03-23 19:43:33 - INFO -   - 压缩大小: 22.69 KB
+2025-03-23 19:43:33 - INFO -   - 压缩比: 0.57%
+2025-03-23 19:43:33 - INFO - ✓ FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf 处理成功
+2025-03-23 19:44:36 - DEBUG - 创建目录: raw
+2025-03-23 19:44:36 - DEBUG - 创建目录: output
+2025-03-23 19:44:36 - DEBUG - 创建目录: temp
+2025-03-23 19:44:36 - INFO - 文档压缩工具初始化完成
+2025-03-23 19:44:36 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 19:44:36 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 19:44:36 - INFO - 支持的文件类型: .jpg, .txt, .tiff, .xlsx, .xls, .gif, .docx, .jpeg, .pptx, .doc, .bmp, .png, .pdf, .ppt
+2025-03-23 19:44:36 - INFO - 找到 1 个文件待处理
+2025-03-23 19:44:36 - INFO - 开始处理文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:44:36 - INFO - 文件大小: 4001.28 KB
+2025-03-23 19:44:36 - INFO - 开始处理PDF文件: FireShot Capture 014 - LINUX DO - 新的理想型社区 - [linux.do].pdf
+2025-03-23 19:44:36 - ERROR - 检查文本层失败: 'list' object has no attribute 'tobytes'
+2025-03-23 19:44:36 - INFO - 第1页: 未发现原生文本层,将进行OCR处理
+2025-03-23 19:44:36 - INFO - 第1页: 发现15个图片
+2025-03-23 19:44:58 - WARNING - 程序已中断
