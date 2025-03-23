@@ -1,0 +1,1371 @@
+2025-03-23 06:30:40,214 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 06:30:40,218 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 06:30:40,219 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 06:30:40,220 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 06:30:40,220 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 06:30:40,221 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 06:30:40,222 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 06:30:40,223 - DocumentCompressor - INFO - 支持的文件类型: .txt, .ppt, .doc, .png, .gif, .jpeg, .docx, .bmp, .pptx, .pdf, .jpg, .tiff, .xlsx, .xls
+2025-03-23 06:30:40,224 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 06:30:41,887 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 06:33:03,008 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 06:33:03,009 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 06:33:03,010 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 06:33:03,012 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 06:33:03,012 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 06:33:03,013 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 06:33:03,014 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 06:33:03,014 - DocumentCompressor - INFO - 支持的文件类型: .pdf, .jpg, .pptx, .ppt, .xlsx, .bmp, .doc, .png, .tiff, .gif, .txt, .jpeg, .docx, .xls
+2025-03-23 06:33:03,015 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 06:33:04,431 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 06:33:04,441 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:33:07,089 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:33:07,090 - DocumentCompressor - INFO -   - 初始内存: 276.12 MB
+2025-03-23 06:33:07,091 - DocumentCompressor - INFO -   - 峰值内存: 276.12 MB
+2025-03-23 06:33:07,092 - DocumentCompressor - INFO -   - 最终内存: 373.20 MB
+2025-03-23 06:33:07,092 - DocumentCompressor - INFO -   - 内存增长: 97.08 MB
+2025-03-23 06:34:10,825 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 06:34:10,827 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 06:34:10,828 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 06:34:10,829 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 06:34:10,829 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 06:34:10,830 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 06:34:10,831 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 06:34:10,831 - DocumentCompressor - INFO - 支持的文件类型: .jpg, .jpeg, .ppt, .doc, .xlsx, .tiff, .txt, .bmp, .docx, .pptx, .pdf, .gif, .png, .xls
+2025-03-23 06:34:10,833 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 06:34:12,215 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 06:34:12,228 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:34:12,228 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:34:12,230 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:34:12,230 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:34:12,231 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:34:12,231 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:34:12,232 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:34:12,233 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:34:12,232 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:34:12,234 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:34:12,233 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:34:12,234 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:34:12,234 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:34:12,234 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:34:12,252 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料1- 出海第一站.png
+2025-03-23 06:34:12,252 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料2-出海工具站.png
+2025-03-23 06:34:12,253 - DocumentCompressor - ERROR - 图片预处理失败: raw\本次航海-AI应用Web网站.png
+2025-03-23 06:34:12,252 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料1- 出海第一站.png
+2025-03-23 06:34:12,252 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料2-出海工具站.png
+2025-03-23 06:34:12,253 - DocumentCompressor - ERROR - 图片预处理失败: raw\本次航海-AI应用Web网站.png
+2025-03-23 06:34:12,258 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:34:12,258 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:34:12,259 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:34:12,259 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:34:12,260 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:34:12,260 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:34:12,263 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:34:12,263 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:34:12,264 - DocumentCompressor - INFO -   - 初始内存: 276.09 MB
+2025-03-23 06:34:12,264 - DocumentCompressor - INFO -   - 初始内存: 276.09 MB
+2025-03-23 06:34:12,265 - DocumentCompressor - INFO -   - 峰值内存: 276.09 MB
+2025-03-23 06:34:12,265 - DocumentCompressor - INFO -   - 峰值内存: 276.09 MB
+2025-03-23 06:34:12,266 - DocumentCompressor - INFO -   - 最终内存: 372.68 MB
+2025-03-23 06:34:12,266 - DocumentCompressor - INFO -   - 最终内存: 372.68 MB
+2025-03-23 06:34:12,267 - DocumentCompressor - INFO -   - 内存增长: 96.59 MB
+2025-03-23 06:34:12,267 - DocumentCompressor - INFO -   - 内存增长: 96.59 MB
+2025-03-23 06:35:20,360 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 06:35:20,362 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 06:35:20,363 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 06:35:20,365 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 06:35:20,366 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 06:35:20,367 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 06:35:20,368 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 06:35:20,368 - DocumentCompressor - INFO - 支持的文件类型: .txt, .ppt, .pdf, .bmp, .docx, .pptx, .jpeg, .xlsx, .xls, .gif, .jpg, .doc, .tiff, .png
+2025-03-23 06:35:20,370 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 06:35:22,069 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 06:35:22,080 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:35:22,080 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:35:22,081 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:35:22,081 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:35:22,082 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:35:22,082 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+
+2025-03-23 06:35:22,082 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:35:22,084 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:35:22,084 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:35:22,084 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:35:22,084 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:35:22,086 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:35:22,086 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:35:22,129 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料1- 出海第一站.png
+2025-03-23 06:35:22,129 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料1- 出海第一站.png
+2025-03-23 06:35:22,130 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料2-出海工具站.png
+2025-03-23 06:35:22,130 - DocumentCompressor - ERROR - 图片预处理失败: raw\本次航海-AI应用Web网站.png
+2025-03-23 06:35:22,130 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料2-出海工具站.png
+2025-03-23 06:35:22,131 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:35:22,130 - DocumentCompressor - ERROR - 图片预处理失败: raw\本次航海-AI应用Web网站.png
+2025-03-23 06:35:22,131 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:35:22,133 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:35:22,133 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:35:22,133 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:35:22,133 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:35:22,135 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:35:22,135 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:35:22,139 - DocumentCompressor - INFO -   - 初始内存: 275.97 MB
+2025-03-23 06:35:22,139 - DocumentCompressor - INFO -   - 初始内存: 275.97 MB
+2025-03-23 06:35:22,140 - DocumentCompressor - INFO -   - 峰值内存: 275.97 MB
+2025-03-23 06:35:22,140 - DocumentCompressor - INFO -   - 峰值内存: 275.97 MB
+2025-03-23 06:35:22,142 - DocumentCompressor - INFO -   - 最终内存: 372.84 MB
+2025-03-23 06:35:22,142 - DocumentCompressor - INFO -   - 最终内存: 372.84 MB
+2025-03-23 06:35:22,144 - DocumentCompressor - INFO -   - 内存增长: 96.87 MB
+2025-03-23 06:35:22,144 - DocumentCompressor - INFO -   - 内存增长: 96.87 MB
+2025-03-23 06:37:05,027 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 06:37:05,028 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 06:37:05,028 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 06:37:05,029 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 06:37:05,029 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 06:37:05,030 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 06:37:05,030 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 06:37:05,031 - DocumentCompressor - INFO - 支持的文件类型: .png, .doc, .gif, .bmp, .xls, .docx, .xlsx, .txt, .jpg, .jpeg, .pdf, .tiff, .ppt, .pptx
+2025-03-23 06:37:05,032 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 06:37:06,427 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 06:37:06,438 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:37:06,438 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:37:06,440 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:37:06,440 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:37:06,440 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:37:06,441 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:37:06,440 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:37:06,441 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:37:06,442 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:37:06,442 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:37:06,443 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:37:06,443 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:37:06,444 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:37:06,444 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:37:09,868 - DocumentCompressor - ERROR - 处理图片文件时出错: 'ParallelProcessor' object has no attribute 'ocr_image'
+2025-03-23 06:37:09,868 - DocumentCompressor - ERROR - 处理图片文件时出错: 'ParallelProcessor' object has no attribute 'ocr_image'
+2025-03-23 06:37:10,006 - DocumentCompressor - ERROR - 错误详情: Traceback (most recent call last):
+  File "e:\Claude_upload\compress_docs.py", line 947, in process_single_file
+    text = self.ocr_image(processed_image)
+           ^^^^^^^^^^^^^^
+AttributeError: 'ParallelProcessor' object has no attribute 'ocr_image'
+
+2025-03-23 06:37:10,039 - DocumentCompressor - ERROR - 处理图片文件时出错: 'ParallelProcessor' object has no attribute 'ocr_image'
+2025-03-23 06:37:10,006 - DocumentCompressor - ERROR - 错误详情: Traceback (most recent call last):
+  File "e:\Claude_upload\compress_docs.py", line 947, in process_single_file
+    text = self.ocr_image(processed_image)
+           ^^^^^^^^^^^^^^
+AttributeError: 'ParallelProcessor' object has no attribute 'ocr_image'
+
+2025-03-23 06:37:10,039 - DocumentCompressor - ERROR - 处理图片文件时出错: 'ParallelProcessor' object has no attribute 'ocr_image'
+2025-03-23 06:37:10,131 - DocumentCompressor - ERROR - 处理图片文件时出错: 'ParallelProcessor' object has no attribute 'ocr_image'
+2025-03-23 06:37:10,131 - DocumentCompressor - ERROR - 处理图片文件时出错: 'ParallelProcessor' object has no attribute 'ocr_image'
+2025-03-23 06:37:10,135 - DocumentCompressor - ERROR - 错误详情: Traceback (most recent call last):
+  File "e:\Claude_upload\compress_docs.py", line 947, in process_single_file
+    text = self.ocr_image(processed_image)
+           ^^^^^^^^^^^^^^
+AttributeError: 'ParallelProcessor' object has no attribute 'ocr_image'
+
+2025-03-23 06:37:10,138 - DocumentCompressor - ERROR - 错误详情: Traceback (most recent call last):
+  File "e:\Claude_upload\compress_docs.py", line 947, in process_single_file
+    text = self.ocr_image(processed_image)
+           ^^^^^^^^^^^^^^
+AttributeError: 'ParallelProcessor' object has no attribute 'ocr_image'
+
+2025-03-23 06:37:10,135 - DocumentCompressor - ERROR - 错误详情: Traceback (most recent call last):
+  File "e:\Claude_upload\compress_docs.py", line 947, in process_single_file
+    text = self.ocr_image(processed_image)
+           ^^^^^^^^^^^^^^
+AttributeError: 'ParallelProcessor' object has no attribute 'ocr_image'
+
+2025-03-23 06:37:10,138 - DocumentCompressor - ERROR - 错误详情: Traceback (most recent call last):
+  File "e:\Claude_upload\compress_docs.py", line 947, in process_single_file
+    text = self.ocr_image(processed_image)
+           ^^^^^^^^^^^^^^
+AttributeError: 'ParallelProcessor' object has no attribute 'ocr_image'
+
+2025-03-23 06:37:10,143 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:37:10,143 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:37:10,145 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:37:10,145 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:37:10,146 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:37:10,146 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:37:10,149 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:37:10,149 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:37:10,151 - DocumentCompressor - INFO -   - 初始内存: 276.96 MB
+2025-03-23 06:37:10,151 - DocumentCompressor - INFO -   - 初始内存: 276.96 MB
+2025-03-23 06:37:10,153 - DocumentCompressor - INFO -   - 峰值内存: 276.96 MB
+2025-03-23 06:37:10,153 - DocumentCompressor - INFO -   - 峰值内存: 276.96 MB
+2025-03-23 06:37:10,155 - DocumentCompressor - INFO -   - 最终内存: 384.49 MB
+2025-03-23 06:37:10,155 - DocumentCompressor - INFO -   - 最终内存: 384.49 MB
+2025-03-23 06:37:10,157 - DocumentCompressor - INFO -   - 内存增长: 107.46 MB
+2025-03-23 06:37:10,157 - DocumentCompressor - INFO -   - 内存增长: 107.46 MB
+2025-03-23 06:38:21,394 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 06:38:21,395 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 06:38:21,396 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 06:38:21,397 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 06:38:21,398 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 06:38:21,398 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 06:38:21,399 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 06:38:21,401 - DocumentCompressor - INFO - 支持的文件类型: .xls, .gif, .png, .doc, .pdf, .xlsx, .jpg, .docx, .pptx, .jpeg, .bmp, .tiff, .txt, .ppt
+2025-03-23 06:38:21,402 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 06:38:23,064 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 06:38:23,076 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:38:23,076 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:38:23,078 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:38:23,078 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:38:23,079 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:38:23,080 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:38:23,079 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:38:23,080 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:38:23,081 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:38:23,082 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:38:23,081 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:38:23,082 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:38:23,083 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:38:23,083 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:38:30,013 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 06:38:30,013 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 06:38:30,225 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 06:38:30,225 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 06:38:30,225 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 06:38:30,225 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 06:38:30,228 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:38:30,228 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:38:30,230 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:38:30,230 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:38:30,230 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:38:30,230 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:38:30,233 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:38:30,233 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:38:30,235 - DocumentCompressor - INFO -   - 初始内存: 276.40 MB
+2025-03-23 06:38:30,235 - DocumentCompressor - INFO -   - 初始内存: 276.40 MB
+2025-03-23 06:38:30,236 - DocumentCompressor - INFO -   - 峰值内存: 276.40 MB
+2025-03-23 06:38:30,236 - DocumentCompressor - INFO -   - 峰值内存: 276.40 MB
+2025-03-23 06:38:30,237 - DocumentCompressor - INFO -   - 最终内存: 385.10 MB
+2025-03-23 06:38:30,237 - DocumentCompressor - INFO -   - 最终内存: 385.10 MB
+2025-03-23 06:38:30,238 - DocumentCompressor - INFO -   - 内存增长: 108.57 MB
+2025-03-23 06:38:30,238 - DocumentCompressor - INFO -   - 内存增长: 108.57 MB
+2025-03-23 06:40:12,134 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 06:40:12,135 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 06:40:12,136 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 06:40:12,137 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 06:40:12,138 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 06:40:12,138 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 06:40:12,139 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 06:40:12,140 - DocumentCompressor - INFO - 支持的文件类型: .txt, .tiff, .ppt, .doc, .xlsx, .jpg, .docx, .xls, .pdf, .png, .bmp, .gif, .pptx, .jpeg
+2025-03-23 06:40:12,141 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 06:40:13,859 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 06:40:13,871 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:40:13,871 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:40:13,873 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:40:13,873 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:40:13,873 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:40:13,874 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:40:13,873 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:40:13,874 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:40:13,876 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:40:13,877 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:40:13,876 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:40:13,877 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:40:13,878 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:40:13,878 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:40:19,718 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 06:40:19,718 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 06:40:19,980 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 06:40:19,980 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 06:40:21,270 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 06:40:21,270 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 06:40:21,346 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:40:21,346 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:40:21,349 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:40:21,349 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:40:21,350 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:40:21,350 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:40:21,354 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:40:21,354 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:40:21,356 - DocumentCompressor - INFO -   - 初始内存: 276.58 MB
+2025-03-23 06:40:21,356 - DocumentCompressor - INFO -   - 初始内存: 276.58 MB
+2025-03-23 06:40:21,357 - DocumentCompressor - INFO -   - 峰值内存: 276.58 MB
+2025-03-23 06:40:21,357 - DocumentCompressor - INFO -   - 峰值内存: 276.58 MB
+2025-03-23 06:40:21,363 - DocumentCompressor - INFO -   - 最终内存: 533.56 MB
+2025-03-23 06:40:21,363 - DocumentCompressor - INFO -   - 最终内存: 533.56 MB
+2025-03-23 06:40:21,371 - DocumentCompressor - INFO -   - 内存增长: 238.08 MB
+2025-03-23 06:40:21,371 - DocumentCompressor - INFO -   - 内存增长: 238.08 MB
+2025-03-23 06:41:55,872 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 06:41:55,873 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 06:41:55,874 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 06:41:55,875 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 06:41:55,876 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 06:41:55,876 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 06:41:55,877 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 06:41:55,877 - DocumentCompressor - INFO - 支持的文件类型: .xlsx, .txt, .jpg, .doc, .pdf, .docx, .gif, .pptx, .bmp, .xls, .jpeg, .ppt, .tiff, .png
+2025-03-23 06:41:55,879 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 06:41:57,275 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 06:41:57,286 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:41:57,286 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:41:57,288 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:41:57,288 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:41:57,289 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:41:57,289 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:41:57,290 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:41:57,290 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:41:57,291 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:41:57,291 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:41:57,292 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:41:57,292 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:41:57,293 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:41:57,293 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:42:04,194 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 06:42:04,194 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 06:42:04,365 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 06:42:04,365 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 06:42:04,413 - DocumentCompressor - INFO -   - 压缩大小: 0.01 KB
+2025-03-23 06:42:04,413 - DocumentCompressor - INFO -   - 压缩大小: 0.01 KB
+2025-03-23 06:42:04,719 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 06:42:04,720 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 06:42:04,719 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 06:42:04,720 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 06:42:04,846 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:42:04,846 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:42:04,989 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 06:42:04,989 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 06:42:06,346 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 06:42:06,346 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 06:42:06,348 - DocumentCompressor - INFO -   - 原始大小: 20817.80 KB
+2025-03-23 06:42:06,348 - DocumentCompressor - INFO -   - 原始大小: 20817.80 KB
+2025-03-23 06:42:06,350 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 06:42:06,350 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 06:42:06,353 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 06:42:06,353 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 06:42:06,427 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 06:42:06,427 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 06:42:06,432 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:42:06,432 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:42:06,439 - DocumentCompressor - INFO -   - 初始内存: 276.48 MB
+2025-03-23 06:42:06,439 - DocumentCompressor - INFO -   - 初始内存: 276.48 MB
+2025-03-23 06:42:06,445 - DocumentCompressor - INFO -   - 峰值内存: 276.48 MB
+2025-03-23 06:42:06,445 - DocumentCompressor - INFO -   - 峰值内存: 276.48 MB
+2025-03-23 06:42:06,449 - DocumentCompressor - INFO -   - 最终内存: 593.36 MB
+2025-03-23 06:42:06,449 - DocumentCompressor - INFO -   - 最终内存: 593.36 MB
+2025-03-23 06:42:06,453 - DocumentCompressor - INFO -   - 内存增长: 310.42 MB
+2025-03-23 06:42:06,453 - DocumentCompressor - INFO -   - 内存增长: 310.42 MB
+2025-03-23 06:43:31,559 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 06:43:31,561 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 06:43:31,562 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 06:43:31,563 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 06:43:31,564 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 06:43:31,565 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 06:43:31,565 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 06:43:31,566 - DocumentCompressor - INFO - 支持的文件类型: .pdf, .xlsx, .png, .tiff, .txt, .bmp, .jpeg, .pptx, .xls, .ppt, .doc, .jpg, .docx, .gif
+2025-03-23 06:43:31,567 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 06:43:32,995 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 06:43:33,006 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:43:33,006 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:43:33,008 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:43:33,008 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:43:33,009 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:43:33,010 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:43:33,009 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:43:33,010 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:43:33,011 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:43:33,012 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:43:33,011 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:43:33,013 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:43:33,012 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:43:33,013 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:43:37,523 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 06:43:37,523 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 06:43:38,872 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 06:43:38,872 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 06:43:40,038 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 06:43:40,038 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 06:43:40,116 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:43:40,116 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 06:43:40,117 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:43:40,117 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 06:43:40,119 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:43:40,119 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 06:43:40,123 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:43:40,123 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:43:40,126 - DocumentCompressor - INFO -   - 初始内存: 276.57 MB
+2025-03-23 06:43:40,126 - DocumentCompressor - INFO -   - 初始内存: 276.57 MB
+2025-03-23 06:43:40,127 - DocumentCompressor - INFO -   - 峰值内存: 276.57 MB
+2025-03-23 06:43:40,127 - DocumentCompressor - INFO -   - 峰值内存: 276.57 MB
+2025-03-23 06:43:40,130 - DocumentCompressor - INFO -   - 最终内存: 752.46 MB
+2025-03-23 06:43:40,130 - DocumentCompressor - INFO -   - 最终内存: 752.46 MB
+2025-03-23 06:43:40,131 - DocumentCompressor - INFO -   - 内存增长: 466.06 MB
+2025-03-23 06:43:40,131 - DocumentCompressor - INFO -   - 内存增长: 466.06 MB
+2025-03-23 06:57:03,200 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 06:57:03,201 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 06:57:03,202 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 06:57:03,203 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 06:57:03,204 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 06:57:03,204 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 06:57:03,205 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 06:57:03,206 - DocumentCompressor - INFO - 支持的文件类型: .pptx, .ppt, .xlsx, .tiff, .docx, .jpeg, .gif, .jpg, .doc, .pdf, .png, .txt, .xls, .bmp
+2025-03-23 06:57:03,208 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 06:57:04,734 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 06:57:04,747 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:57:04,747 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 06:57:04,748 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:57:04,748 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 06:57:04,749 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:57:04,750 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:57:04,749 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 06:57:04,750 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 06:57:04,751 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:57:04,751 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 06:57:04,751 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:57:04,751 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 06:57:04,752 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:57:04,752 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 06:57:11,926 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 06:57:11,926 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 06:57:11,954 - DocumentCompressor - INFO -   - 原始大小: 20817.80 KB
+2025-03-23 06:57:11,954 - DocumentCompressor - INFO -   - 原始大小: 20817.80 KB
+2025-03-23 06:57:11,958 - DocumentCompressor - INFO -   - 压缩大小: 0.01 KB
+2025-03-23 06:57:11,958 - DocumentCompressor - INFO -   - 压缩大小: 0.01 KB
+2025-03-23 06:57:11,994 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 06:57:11,994 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 06:57:15,331 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 06:57:15,331 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 06:57:15,333 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 06:57:15,333 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 06:57:15,360 - DocumentCompressor - INFO -   - 压缩大小: 0.01 KB
+2025-03-23 06:57:15,360 - DocumentCompressor - INFO -   - 压缩大小: 0.01 KB
+2025-03-23 06:57:15,385 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 06:57:15,385 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 06:57:17,377 - DocumentCompressor - INFO - ✓ 参考资料1- 出海第一站.png 处理成功
+2025-03-23 06:57:17,377 - DocumentCompressor - INFO - ✓ 参考资料1- 出海第一站.png 处理成功
+2025-03-23 06:57:17,378 - DocumentCompressor - INFO -   - 原始大小: 18840.46 KB
+2025-03-23 06:57:17,378 - DocumentCompressor - INFO -   - 原始大小: 18840.46 KB
+2025-03-23 06:57:17,380 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 06:57:17,380 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 06:57:17,382 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 06:57:17,382 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 06:57:17,453 - DocumentCompressor - INFO - ✓ 参考资料1- 出海第一站.png 处理成功
+2025-03-23 06:57:17,453 - DocumentCompressor - INFO - ✓ 参考资料1- 出海第一站.png 处理成功
+2025-03-23 06:57:17,455 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 06:57:17,455 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 06:57:17,458 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 06:57:17,458 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 06:57:17,461 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:57:17,461 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 06:57:17,463 - DocumentCompressor - INFO -   - 初始内存: 276.39 MB
+2025-03-23 06:57:17,463 - DocumentCompressor - INFO -   - 初始内存: 276.39 MB
+2025-03-23 06:57:17,464 - DocumentCompressor - INFO -   - 峰值内存: 276.39 MB
+2025-03-23 06:57:17,464 - DocumentCompressor - INFO -   - 峰值内存: 276.39 MB
+2025-03-23 06:57:17,465 - DocumentCompressor - INFO -   - 最终内存: 648.51 MB
+2025-03-23 06:57:17,465 - DocumentCompressor - INFO -   - 最终内存: 648.51 MB
+2025-03-23 06:57:17,468 - DocumentCompressor - INFO -   - 内存增长: 363.96 MB
+2025-03-23 06:57:17,468 - DocumentCompressor - INFO -   - 内存增长: 363.96 MB
+2025-03-23 07:03:50,921 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 07:03:50,922 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 07:03:50,923 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 07:03:50,924 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 07:03:50,924 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 07:03:50,925 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 07:03:50,926 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 07:03:50,926 - DocumentCompressor - INFO - 支持的文件类型: .jpeg, .pptx, .gif, .png, .doc, .docx, .tiff, .txt, .jpg, .bmp, .pdf, .xls, .xlsx, .ppt
+2025-03-23 07:03:50,927 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 07:03:52,571 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 07:03:52,583 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:03:52,583 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:03:52,584 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:03:52,584 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:03:52,585 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:03:52,585 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:03:52,585 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:03:52,585 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:03:52,586 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:03:52,586 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:03:52,587 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:03:52,587 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:03:52,588 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:03:52,588 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:03:59,878 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:03:59,878 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:03:59,908 - DocumentCompressor - INFO -   - 原始大小: 20817.80 KB
+2025-03-23 07:03:59,908 - DocumentCompressor - INFO -   - 原始大小: 20817.80 KB
+2025-03-23 07:03:59,941 - DocumentCompressor - INFO -   - 压缩大小: 0.01 KB
+2025-03-23 07:03:59,941 - DocumentCompressor - INFO -   - 压缩大小: 0.01 KB
+2025-03-23 07:03:59,943 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:03:59,943 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:04:05,924 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:04:05,924 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:04:05,926 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 07:04:05,926 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 07:04:05,942 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 07:04:05,942 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 07:04:05,945 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:04:05,945 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:04:07,899 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:04:07,899 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:04:07,976 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:04:07,976 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:04:07,978 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:04:07,978 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:04:07,980 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:04:07,980 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:04:07,985 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:04:07,985 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:04:07,988 - DocumentCompressor - INFO -   - 初始内存: 276.41 MB
+2025-03-23 07:04:07,988 - DocumentCompressor - INFO -   - 初始内存: 276.41 MB
+2025-03-23 07:04:07,990 - DocumentCompressor - INFO -   - 峰值内存: 276.41 MB
+2025-03-23 07:04:07,990 - DocumentCompressor - INFO -   - 峰值内存: 276.41 MB
+2025-03-23 07:04:07,992 - DocumentCompressor - INFO -   - 最终内存: 667.75 MB
+2025-03-23 07:04:07,992 - DocumentCompressor - INFO -   - 最终内存: 667.75 MB
+2025-03-23 07:04:07,993 - DocumentCompressor - INFO -   - 内存增长: 379.45 MB
+2025-03-23 07:04:07,993 - DocumentCompressor - INFO -   - 内存增长: 379.45 MB
+2025-03-23 07:07:55,195 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 07:07:55,196 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 07:07:55,197 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 07:07:55,198 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 07:07:55,199 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 07:07:55,199 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 07:07:55,200 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 07:07:55,200 - DocumentCompressor - INFO - 支持的文件类型: .docx, .xls, .txt, .pdf, .bmp, .tiff, .jpg, .ppt, .pptx, .doc, .gif, .xlsx, .jpeg, .png
+2025-03-23 07:07:55,201 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 07:07:56,592 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 07:07:56,605 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:07:56,605 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:07:56,608 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:07:56,608 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:07:56,609 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:07:56,610 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:07:56,609 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:07:56,611 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:07:56,610 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:07:56,611 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:07:56,612 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:07:56,613 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:07:56,612 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:07:56,613 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:07:56,637 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料1- 出海第一站.png
+2025-03-23 07:07:56,637 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料1- 出海第一站.png
+2025-03-23 07:07:56,637 - DocumentCompressor - ERROR - 图片预处理失败: raw\本次航海-AI应用Web网站.png
+2025-03-23 07:07:56,637 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料2-出海工具站.png
+2025-03-23 07:07:56,637 - DocumentCompressor - ERROR - 图片预处理失败: raw\本次航海-AI应用Web网站.png
+2025-03-23 07:07:56,639 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:07:56,637 - DocumentCompressor - ERROR - 图片预处理失败: raw\参考资料2-出海工具站.png
+2025-03-23 07:07:56,639 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:07:56,643 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 07:07:56,643 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 07:07:56,645 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 07:07:56,645 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 07:07:56,648 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:07:56,648 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:07:56,649 - DocumentCompressor - INFO -   - 初始内存: 276.55 MB
+2025-03-23 07:07:56,649 - DocumentCompressor - INFO -   - 初始内存: 276.55 MB
+2025-03-23 07:07:56,650 - DocumentCompressor - INFO -   - 峰值内存: 276.55 MB
+2025-03-23 07:07:56,650 - DocumentCompressor - INFO -   - 峰值内存: 276.55 MB
+2025-03-23 07:07:56,651 - DocumentCompressor - INFO -   - 最终内存: 371.50 MB
+2025-03-23 07:07:56,651 - DocumentCompressor - INFO -   - 最终内存: 371.50 MB
+2025-03-23 07:07:56,653 - DocumentCompressor - INFO -   - 内存增长: 94.90 MB
+2025-03-23 07:07:56,653 - DocumentCompressor - INFO -   - 内存增长: 94.90 MB
+2025-03-23 07:10:57,483 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 07:10:57,484 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 07:10:57,486 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 07:10:57,488 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 07:10:57,489 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 07:10:57,489 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 07:10:57,490 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 07:10:57,491 - DocumentCompressor - INFO - 支持的文件类型: .docx, .bmp, .txt, .xls, .xlsx, .ppt, .tiff, .png, .doc, .jpg, .jpeg, .gif, .pdf, .pptx
+2025-03-23 07:10:57,492 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 07:10:59,365 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 07:10:59,377 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:10:59,377 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:10:59,379 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:10:59,379 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:10:59,380 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:10:59,381 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:10:59,380 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:10:59,381 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:10:59,382 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:10:59,382 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:10:59,383 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:10:59,383 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:10:59,384 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:10:59,384 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:11:06,712 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 07:11:06,712 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 07:11:07,450 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:11:07,450 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:11:07,530 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:11:07,530 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:11:07,532 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 07:11:07,532 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 07:11:07,992 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 07:11:07,992 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 07:11:08,070 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 07:11:08,070 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 07:11:08,074 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:11:08,074 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:11:08,076 - DocumentCompressor - INFO -   - 初始内存: 275.84 MB
+2025-03-23 07:11:08,076 - DocumentCompressor - INFO -   - 初始内存: 275.84 MB
+2025-03-23 07:11:08,078 - DocumentCompressor - INFO -   - 峰值内存: 275.84 MB
+2025-03-23 07:11:08,078 - DocumentCompressor - INFO -   - 峰值内存: 275.84 MB
+2025-03-23 07:11:08,079 - DocumentCompressor - INFO -   - 最终内存: 633.20 MB
+2025-03-23 07:11:08,079 - DocumentCompressor - INFO -   - 最终内存: 633.20 MB
+2025-03-23 07:11:08,082 - DocumentCompressor - INFO -   - 内存增长: 343.57 MB
+2025-03-23 07:11:08,082 - DocumentCompressor - INFO -   - 内存增长: 343.57 MB
+2025-03-23 07:19:24,061 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 07:19:24,063 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 07:19:24,064 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 07:19:24,065 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 07:19:24,065 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 07:19:24,066 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 07:19:24,067 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 07:19:24,068 - DocumentCompressor - INFO - 支持的文件类型: .gif, .docx, .png, .pdf, .txt, .bmp, .xlsx, .jpeg, .doc, .ppt, .pptx, .jpg, .tiff, .xls
+2025-03-23 07:19:24,068 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 07:19:25,186 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 07:19:25,197 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:19:25,197 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:19:25,199 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:19:25,199 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:19:25,200 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:19:25,200 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:19:25,200 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:19:25,200 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:19:25,201 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:19:25,202 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:19:25,201 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:19:25,203 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:19:25,202 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:19:25,203 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:19:32,571 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 07:19:32,571 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 07:19:33,159 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 07:19:33,159 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 07:19:34,054 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:19:34,054 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:19:34,135 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:19:34,135 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:19:34,137 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 07:19:34,137 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 07:19:34,139 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 07:19:34,139 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 07:19:34,143 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:19:34,143 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:19:34,146 - DocumentCompressor - INFO -   - 初始内存: 275.96 MB
+2025-03-23 07:19:34,146 - DocumentCompressor - INFO -   - 初始内存: 275.96 MB
+2025-03-23 07:19:34,148 - DocumentCompressor - INFO -   - 峰值内存: 275.96 MB
+2025-03-23 07:19:34,148 - DocumentCompressor - INFO -   - 峰值内存: 275.96 MB
+2025-03-23 07:19:34,150 - DocumentCompressor - INFO -   - 最终内存: 605.73 MB
+2025-03-23 07:19:34,150 - DocumentCompressor - INFO -   - 最终内存: 605.73 MB
+2025-03-23 07:19:34,151 - DocumentCompressor - INFO -   - 内存增长: 320.20 MB
+2025-03-23 07:19:34,151 - DocumentCompressor - INFO -   - 内存增长: 320.20 MB
+2025-03-23 07:21:53,001 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 07:21:53,003 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 07:21:53,004 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 07:21:53,005 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 07:21:53,005 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 07:21:53,006 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 07:21:53,006 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 07:21:53,007 - DocumentCompressor - INFO - 支持的文件类型: .png, .docx, .tiff, .jpg, .txt, .pdf, .ppt, .xls, .xlsx, .doc, .jpeg, .gif, .pptx, .bmp
+2025-03-23 07:21:53,008 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 07:21:54,014 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 07:21:54,026 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:21:54,026 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:21:54,028 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:21:54,028 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:21:54,029 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:21:54,029 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:21:54,029 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:21:54,030 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:21:54,029 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:21:54,030 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:21:54,031 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:21:54,032 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:21:54,031 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:21:54,032 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:22:00,401 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 07:22:00,401 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 07:22:00,870 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 07:22:00,870 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 07:22:01,794 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:22:01,794 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:22:01,876 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:22:01,876 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:22:01,878 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 07:22:01,878 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 07:22:01,879 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 07:22:01,879 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 07:22:01,883 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:22:01,883 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:22:01,885 - DocumentCompressor - INFO -   - 初始内存: 276.52 MB
+2025-03-23 07:22:01,885 - DocumentCompressor - INFO -   - 初始内存: 276.52 MB
+2025-03-23 07:22:01,887 - DocumentCompressor - INFO -   - 峰值内存: 276.52 MB
+2025-03-23 07:22:01,887 - DocumentCompressor - INFO -   - 峰值内存: 276.52 MB
+2025-03-23 07:22:01,888 - DocumentCompressor - INFO -   - 最终内存: 554.56 MB
+2025-03-23 07:22:01,888 - DocumentCompressor - INFO -   - 最终内存: 554.56 MB
+2025-03-23 07:22:01,890 - DocumentCompressor - INFO -   - 内存增长: 269.34 MB
+2025-03-23 07:22:01,890 - DocumentCompressor - INFO -   - 内存增长: 269.34 MB
+2025-03-23 07:23:18,037 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 07:23:18,038 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 07:23:18,040 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 07:23:18,041 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 07:23:18,042 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 07:23:18,043 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 07:23:18,044 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 07:23:18,045 - DocumentCompressor - INFO - 支持的文件类型: .png, .ppt, .xlsx, .pptx, .doc, .docx, .jpeg, .tiff, .xls, .pdf, .gif, .txt, .jpg, .bmp
+2025-03-23 07:23:18,046 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 07:23:19,078 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 07:23:19,089 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:23:19,089 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:23:19,091 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:23:19,091 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:23:19,091 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:23:19,092 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:23:19,091 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:23:19,093 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:23:19,092 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:23:19,093 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:23:19,094 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:23:19,094 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:23:19,096 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:23:19,096 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:23:27,096 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:23:27,096 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:23:27,491 - DocumentCompressor - INFO -   - 原始大小: 20817.80 KB
+2025-03-23 07:23:27,491 - DocumentCompressor - INFO -   - 原始大小: 20817.80 KB
+2025-03-23 07:23:27,494 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 07:23:27,494 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 07:23:27,499 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:23:27,499 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:23:28,324 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:23:28,324 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:23:28,326 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 07:23:28,326 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 07:23:28,327 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 07:23:28,327 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 07:23:28,330 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:23:28,330 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:23:30,644 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:23:30,644 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:23:30,712 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:23:30,712 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:23:30,713 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:23:30,713 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:23:30,714 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:23:30,714 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:23:30,718 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:23:30,718 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:23:30,720 - DocumentCompressor - INFO -   - 初始内存: 275.92 MB
+2025-03-23 07:23:30,720 - DocumentCompressor - INFO -   - 初始内存: 275.92 MB
+2025-03-23 07:23:30,721 - DocumentCompressor - INFO -   - 峰值内存: 275.92 MB
+2025-03-23 07:23:30,721 - DocumentCompressor - INFO -   - 峰值内存: 275.92 MB
+2025-03-23 07:23:30,722 - DocumentCompressor - INFO -   - 最终内存: 820.91 MB
+2025-03-23 07:23:30,722 - DocumentCompressor - INFO -   - 最终内存: 820.91 MB
+2025-03-23 07:23:30,724 - DocumentCompressor - INFO -   - 内存增长: 533.27 MB
+2025-03-23 07:23:30,724 - DocumentCompressor - INFO -   - 内存增长: 533.27 MB
+2025-03-23 07:24:26,439 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 07:24:26,440 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 07:24:26,441 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 07:24:26,442 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 07:24:26,443 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 07:24:26,444 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 07:24:26,444 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 07:24:26,445 - DocumentCompressor - INFO - 支持的文件类型: .txt, .tiff, .bmp, .png, .pptx, .docx, .pdf, .gif, .xls, .ppt, .doc, .jpeg, .xlsx, .jpg
+2025-03-23 07:24:26,446 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 07:24:27,473 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 07:24:27,485 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:24:27,485 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 07:24:27,487 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:24:27,488 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:24:27,487 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 07:24:27,488 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 07:24:27,488 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:24:27,488 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 07:24:27,490 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:24:27,490 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:24:27,490 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 07:24:27,490 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 07:24:27,490 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:24:27,490 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 07:24:34,316 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:24:34,316 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:24:34,318 - DocumentCompressor - INFO -   - 原始大小: 20817.80 KB
+2025-03-23 07:24:34,318 - DocumentCompressor - INFO -   - 原始大小: 20817.80 KB
+2025-03-23 07:24:34,322 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 07:24:34,322 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 07:24:34,325 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:24:34,325 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:24:35,580 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:24:35,580 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:24:35,582 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 07:24:35,582 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 07:24:35,585 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 07:24:35,585 - DocumentCompressor - INFO -   - 压缩大小: 0.00 KB
+2025-03-23 07:24:35,587 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:24:35,587 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 07:24:38,259 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:24:38,259 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 07:24:38,322 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:24:38,322 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 07:24:38,322 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:24:38,322 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 07:24:38,324 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:24:38,324 - DocumentCompressor - INFO - ✓ 本次航海-AI应用Web网站.png 处理成功
+2025-03-23 07:24:38,327 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:24:38,327 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 07:24:38,328 - DocumentCompressor - INFO -   - 初始内存: 276.42 MB
+2025-03-23 07:24:38,328 - DocumentCompressor - INFO -   - 初始内存: 276.42 MB
+2025-03-23 07:24:38,329 - DocumentCompressor - INFO -   - 峰值内存: 276.42 MB
+2025-03-23 07:24:38,329 - DocumentCompressor - INFO -   - 峰值内存: 276.42 MB
+2025-03-23 07:24:38,331 - DocumentCompressor - INFO -   - 最终内存: 825.90 MB
+2025-03-23 07:24:38,331 - DocumentCompressor - INFO -   - 最终内存: 825.90 MB
+2025-03-23 07:24:38,332 - DocumentCompressor - INFO -   - 内存增长: 538.04 MB
+2025-03-23 07:24:38,332 - DocumentCompressor - INFO -   - 内存增长: 538.04 MB
+2025-03-23 13:37:17,698 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 13:37:17,699 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 13:37:17,700 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 13:37:17,702 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 13:37:17,703 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 13:37:17,703 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 13:37:17,704 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 13:37:17,705 - DocumentCompressor - INFO - 支持的文件类型: .bmp, .png, .ppt, .txt, .doc, .tiff, .pdf, .pptx, .docx, .gif, .xlsx, .jpg, .jpeg, .xls
+2025-03-23 13:37:17,705 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 13:37:18,765 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 13:37:18,792 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 13:37:18,792 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 13:37:18,795 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 13:37:18,795 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 13:37:18,797 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 13:37:18,798 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 13:37:18,797 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 13:37:18,798 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 13:37:18,800 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 13:37:18,801 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 13:37:18,800 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 13:37:18,801 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 13:37:18,803 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 13:37:18,803 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 13:37:18,839 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:37:18,840 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:37:18,840 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:37:18,840 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 13:37:18,840 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 13:37:18,841 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:37:18,842 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:37:18,841 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:37:18,842 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:37:18,844 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:37:18,844 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:42:57,753 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 13:42:57,757 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 13:42:57,759 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 13:42:57,761 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 13:42:57,763 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 13:42:57,764 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 13:42:57,765 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 13:42:57,768 - DocumentCompressor - INFO - 支持的文件类型: .pptx, .doc, .jpg, .tiff, .xlsx, .jpeg, .pdf, .bmp, .txt, .docx, .png, .ppt, .gif, .xls
+2025-03-23 13:42:57,772 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 13:43:01,108 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 13:43:01,136 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 13:43:01,136 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 13:43:01,139 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 13:43:01,139 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 13:43:01,141 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 13:43:01,141 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 13:43:01,142 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 13:43:01,142 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 13:43:01,145 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 13:43:01,145 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 13:43:01,147 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 13:43:01,147 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 13:43:01,147 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 13:43:01,147 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 13:43:01,833 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 13:43:01,833 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 13:43:01,833 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:43:01,833 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:43:01,834 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:43:01,834 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:43:01,834 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:43:01,834 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:43:01,834 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:43:01,834 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:43:01,837 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:43:01,837 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:43:50,126 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 13:43:50,126 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 13:43:50,133 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 13:43:50,133 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 13:43:50,136 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 13:43:50,136 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 13:43:50,139 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 13:43:50,139 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 13:44:26,301 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 13:44:26,305 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 13:44:26,307 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 13:44:26,308 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 13:44:26,309 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 13:44:26,310 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 13:44:26,311 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 13:44:26,312 - DocumentCompressor - INFO - 支持的文件类型: .txt, .jpeg, .jpg, .xlsx, .tiff, .png, .docx, .gif, .pdf, .xls, .bmp, .pptx, .ppt, .doc
+2025-03-23 13:44:26,313 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 13:44:27,863 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 13:44:27,877 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 13:44:27,877 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 13:44:27,879 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 13:44:27,880 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 13:44:27,879 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 13:44:27,880 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 13:44:27,880 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 13:44:27,883 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 13:44:27,880 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 13:44:27,883 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 13:44:27,883 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 13:44:27,883 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 13:44:27,885 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 13:44:27,885 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 13:44:27,921 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:44:27,921 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:44:27,921 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:44:27,921 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:44:27,921 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 13:44:27,921 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 13:44:27,922 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:44:27,922 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:44:27,922 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:44:27,923 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:44:27,922 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:44:27,923 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:45:17,883 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 13:45:17,883 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 13:45:17,885 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 13:45:17,885 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 13:45:17,886 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 13:45:17,886 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 13:45:17,888 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 13:45:17,888 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 13:51:06,733 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 13:51:06,736 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 13:51:06,738 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 13:51:06,739 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 13:51:06,741 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 13:51:06,743 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 13:51:06,744 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 13:51:06,746 - DocumentCompressor - INFO - 支持的文件类型: .pptx, .xlsx, .pdf, .bmp, .png, .jpg, .jpeg, .doc, .tiff, .docx, .xls, .txt, .gif, .ppt
+2025-03-23 13:51:06,748 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 13:51:08,281 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 13:51:08,298 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 13:51:08,298 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 13:51:08,332 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 13:51:08,333 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 13:51:08,332 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 13:51:08,334 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 13:51:08,333 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 13:51:08,334 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 13:51:08,337 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 13:51:08,337 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 13:51:08,338 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 13:51:08,338 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 13:51:08,340 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 13:51:08,340 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 13:51:08,393 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:51:08,393 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:51:08,394 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:51:08,394 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:51:08,394 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 13:51:08,394 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 13:51:08,395 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:51:08,395 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:51:08,395 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:51:08,396 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:51:08,395 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:51:08,396 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:52:34,252 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 13:52:34,252 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 13:52:34,254 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 13:52:34,254 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 13:52:34,259 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 13:52:34,259 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 13:52:34,262 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 13:52:34,262 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 13:55:06,412 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 13:55:06,414 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 13:55:06,415 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 13:55:06,416 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 13:55:06,417 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 13:55:06,417 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 13:55:06,419 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 13:55:06,419 - DocumentCompressor - INFO - 支持的文件类型: .txt, .docx, .jpg, .pdf, .ppt, .gif, .xlsx, .pptx, .tiff, .doc, .bmp, .xls, .jpeg, .png
+2025-03-23 13:55:06,420 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 13:55:07,494 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 13:55:07,511 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 13:55:07,511 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 13:55:07,526 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 13:55:07,526 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 13:55:07,526 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 13:55:07,527 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 13:55:07,526 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 13:55:07,527 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 13:55:07,530 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 13:55:07,530 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 13:55:07,531 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 13:55:07,531 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 13:55:07,531 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 13:55:07,531 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 13:55:07,560 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:55:07,560 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:55:07,561 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:55:07,561 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 13:55:07,561 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 13:55:07,561 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 13:55:07,562 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:55:07,562 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:55:07,563 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:55:07,563 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:55:07,563 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:55:07,563 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 13:55:31,600 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 13:55:31,600 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 13:55:31,602 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 13:55:31,602 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 13:55:31,604 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 13:55:31,604 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 13:55:31,611 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 13:55:31,611 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 14:01:54,184 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 14:01:54,185 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 14:01:54,187 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 14:01:54,187 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 14:01:54,188 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 14:01:54,188 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 14:01:54,189 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 14:01:54,190 - DocumentCompressor - INFO - 支持的文件类型: .ppt, .xlsx, .jpg, .tiff, .pdf, .pptx, .txt, .bmp, .jpeg, .xls, .doc, .gif, .docx, .png
+2025-03-23 14:01:54,190 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 14:01:55,368 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 14:01:55,382 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 14:01:55,382 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 14:01:55,399 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 14:01:55,400 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 14:01:55,399 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 14:01:55,400 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 14:01:55,401 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 14:01:55,401 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 14:01:55,403 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 14:01:55,404 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 14:01:55,403 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 14:01:55,404 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 14:01:55,406 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 14:01:55,406 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 14:01:55,440 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 14:01:55,440 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 14:01:55,440 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:01:55,440 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:01:55,440 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:01:55,440 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:01:55,441 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:01:55,441 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:01:55,441 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:01:55,441 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:01:55,443 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:01:55,443 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:02:03,071 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 14:02:03,071 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\本次航海-AI应用Web网站.png
+2025-03-23 14:02:05,377 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 14:02:05,377 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料1- 出海第一站.png
+2025-03-23 14:02:05,670 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 14:02:05,670 - DocumentCompressor - ERROR - × 参考资料1- 出海第一站.png 处理失败
+2025-03-23 14:02:06,753 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 14:02:06,753 - DocumentCompressor - ERROR - OCR未能识别出文本: raw\参考资料2-出海工具站.png
+2025-03-23 14:02:06,830 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 14:02:06,830 - DocumentCompressor - ERROR - × 参考资料2-出海工具站.png 处理失败
+2025-03-23 14:02:06,832 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 14:02:06,832 - DocumentCompressor - ERROR - × 本次航海-AI应用Web网站.png 处理失败
+2025-03-23 14:02:06,836 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 14:02:06,836 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 14:02:06,839 - DocumentCompressor - INFO -   - 初始内存: 276.24 MB
+2025-03-23 14:02:06,839 - DocumentCompressor - INFO -   - 初始内存: 276.24 MB
+2025-03-23 14:02:06,840 - DocumentCompressor - INFO -   - 峰值内存: 276.24 MB
+2025-03-23 14:02:06,840 - DocumentCompressor - INFO -   - 峰值内存: 276.24 MB
+2025-03-23 14:02:06,844 - DocumentCompressor - INFO -   - 最终内存: 554.81 MB
+2025-03-23 14:02:06,844 - DocumentCompressor - INFO -   - 最终内存: 554.81 MB
+2025-03-23 14:02:06,847 - DocumentCompressor - INFO -   - 内存增长: 270.39 MB
+2025-03-23 14:02:06,847 - DocumentCompressor - INFO -   - 内存增长: 270.39 MB
+2025-03-23 14:05:19,920 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 14:05:19,921 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 14:05:19,922 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 14:05:19,924 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 14:05:19,925 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 14:05:19,926 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 14:05:19,928 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 14:05:19,929 - DocumentCompressor - INFO - 支持的文件类型: .xlsx, .txt, .gif, .docx, .png, .bmp, .tiff, .pdf, .ppt, .xls, .jpeg, .pptx, .jpg, .doc
+2025-03-23 14:05:19,930 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 14:05:21,197 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 14:05:21,212 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 14:05:21,212 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 14:05:21,230 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 14:05:21,230 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 14:05:21,232 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 14:05:21,233 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 14:05:21,232 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 14:05:21,233 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 14:05:21,233 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 14:05:21,233 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 14:05:21,236 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 14:05:21,238 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 14:05:21,236 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 14:05:21,238 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 14:05:21,264 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 14:05:21,264 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 14:05:21,265 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:05:21,265 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:05:21,265 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:05:21,265 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:05:21,265 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:05:21,265 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:05:21,266 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:05:21,267 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:05:21,266 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:05:21,267 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:05:47,722 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 14:05:47,722 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 14:05:47,729 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 14:05:47,729 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 14:05:47,737 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 14:05:47,737 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 14:05:47,741 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 14:05:47,741 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 14:14:36,441 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 14:14:36,444 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 14:14:36,445 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 14:14:36,447 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 14:14:36,448 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 14:14:36,450 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 14:14:36,451 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 14:14:36,452 - DocumentCompressor - INFO - 支持的文件类型: .pptx, .txt, .bmp, .jpg, .tiff, .gif, .xlsx, .ppt, .xls, .doc, .docx, .pdf, .png, .jpeg
+2025-03-23 14:14:36,455 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 14:14:37,611 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 14:14:37,629 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 14:14:37,629 - DocumentCompressor - INFO - 找到 3 个文件待处理
+2025-03-23 14:14:37,649 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 14:14:37,649 - DocumentCompressor - INFO - 开始处理文件: 参考资料1- 出海第一站.png
+2025-03-23 14:14:37,652 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 14:14:37,652 - DocumentCompressor - INFO - 文件大小: 18840.46 KB
+2025-03-23 14:14:37,693 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:14:37,693 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:14:37,694 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:14:37,694 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:21:32,643 - DocumentCompressor - INFO - ✓ 参考资料1- 出海第一站.png 处理成功
+2025-03-23 14:21:32,643 - DocumentCompressor - INFO - ✓ 参考资料1- 出海第一站.png 处理成功
+2025-03-23 14:21:32,648 - DocumentCompressor - INFO -   - 原始大小: 18840.46 KB
+2025-03-23 14:21:32,648 - DocumentCompressor - INFO -   - 原始大小: 18840.46 KB
+2025-03-23 14:21:32,650 - DocumentCompressor - INFO -   - 压缩大小: 66.04 KB
+2025-03-23 14:21:32,650 - DocumentCompressor - INFO -   - 压缩大小: 66.04 KB
+2025-03-23 14:21:32,652 - DocumentCompressor - INFO -   - 压缩比: 0.35%
+2025-03-23 14:21:32,652 - DocumentCompressor - INFO -   - 压缩比: 0.35%
+2025-03-23 14:21:32,717 - DocumentCompressor - INFO - ✓ 参考资料1- 出海第一站.png 处理成功
+2025-03-23 14:21:32,717 - DocumentCompressor - INFO - ✓ 参考资料1- 出海第一站.png 处理成功
+2025-03-23 14:21:32,719 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 14:21:32,719 - DocumentCompressor - INFO - 开始处理文件: 参考资料2-出海工具站.png
+2025-03-23 14:21:32,722 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 14:21:32,722 - DocumentCompressor - INFO - 文件大小: 16431.08 KB
+2025-03-23 14:21:32,731 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 14:21:32,731 - DocumentCompressor - DEBUG - 原始图片尺寸: (1617, 65535)
+2025-03-23 14:21:32,732 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:21:32,732 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:21:52,916 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 14:21:52,916 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 14:21:52,918 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 14:21:52,918 - DocumentCompressor - INFO -   - 原始大小: 16431.08 KB
+2025-03-23 14:21:52,921 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 14:21:52,921 - DocumentCompressor - INFO -   - 压缩大小: 0.57 KB
+2025-03-23 14:21:52,923 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 14:21:52,923 - DocumentCompressor - INFO -   - 压缩比: 0.00%
+2025-03-23 14:21:52,991 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 14:21:52,991 - DocumentCompressor - INFO - ✓ 参考资料2-出海工具站.png 处理成功
+2025-03-23 14:21:52,993 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 14:21:52,993 - DocumentCompressor - INFO - 开始处理文件: 本次航海-AI应用Web网站.png
+2025-03-23 14:21:52,996 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 14:21:52,996 - DocumentCompressor - INFO - 文件大小: 20817.80 KB
+2025-03-23 14:21:53,000 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:21:53,000 - DocumentCompressor - DEBUG - 原始图片尺寸: (1541, 65535)
+2025-03-23 14:21:53,000 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:21:53,000 - DocumentCompressor - INFO - 检测到长截图,使用长图片处理器...
+2025-03-23 14:27:08,428 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 14:27:08,430 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 14:27:08,431 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 14:27:08,432 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 14:27:08,433 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 14:27:08,435 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 14:27:08,436 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 14:27:08,438 - DocumentCompressor - INFO - 支持的文件类型: .xlsx, .tiff, .bmp, .ppt, .jpeg, .pdf, .jpg, .gif, .pptx, .doc, .png, .xls, .docx, .txt
+2025-03-23 14:27:08,439 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 14:27:09,641 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 14:27:09,654 - DocumentCompressor - INFO - 找到 2 个文件待处理
+2025-03-23 14:27:09,672 - DocumentCompressor - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
+2025-03-23 14:27:09,674 - DocumentCompressor - INFO - 文件大小: 40746.44 KB
+2025-03-23 14:27:09,675 - DocumentCompressor - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
+2025-03-23 14:30:07,594 - DocumentCompressor - WARNING - 程序已中断
+2025-03-23 14:30:07,744 - DocumentCompressor - INFO - 
+最终内存使用情况:
+2025-03-23 14:30:07,747 - DocumentCompressor - INFO -   - 初始内存: 276.66 MB
+2025-03-23 14:30:07,750 - DocumentCompressor - INFO -   - 峰值内存: 276.66 MB
+2025-03-23 14:30:07,760 - DocumentCompressor - INFO -   - 最终内存: 4141.80 MB
+2025-03-23 14:30:07,767 - DocumentCompressor - INFO -   - 内存增长: 3865.18 MB
+2025-03-23 14:30:35,209 - DocumentCompressor - INFO - 初始化DocumentCompressor
+2025-03-23 14:30:35,210 - DocumentCompressor - DEBUG - 创建目录: raw
+2025-03-23 14:30:35,210 - DocumentCompressor - DEBUG - 创建目录: output
+2025-03-23 14:30:35,211 - DocumentCompressor - DEBUG - 创建目录: temp
+2025-03-23 14:30:35,212 - DocumentCompressor - INFO - 文档压缩工具初始化完成
+2025-03-23 14:30:35,213 - DocumentCompressor - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 14:30:35,214 - DocumentCompressor - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 14:30:35,214 - DocumentCompressor - INFO - 支持的文件类型: .docx, .doc, .png, .pptx, .jpg, .bmp, .ppt, .xlsx, .txt, .tiff, .xls, .jpeg, .pdf, .gif
+2025-03-23 14:30:35,216 - DocumentCompressor - INFO - 正在初始化PaddleOCR...
+2025-03-23 14:30:36,511 - DocumentCompressor - INFO - PaddleOCR初始化成功
+2025-03-23 14:30:36,526 - DocumentCompressor - INFO - 找到 2 个文件待处理
+2025-03-23 14:30:36,543 - DocumentCompressor - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
+2025-03-23 14:30:36,544 - DocumentCompressor - INFO - 文件大小: 40746.44 KB
+2025-03-23 14:30:36,545 - DocumentCompressor - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
+2025-03-23 14:33:54 - INFO - 初始化DocumentCompressor
+2025-03-23 14:33:54 - DEBUG - 创建目录: raw
+2025-03-23 14:33:54 - DEBUG - 创建目录: output
+2025-03-23 14:33:54 - DEBUG - 创建目录: temp
+2025-03-23 14:33:54 - INFO - 文档压缩工具初始化完成
+2025-03-23 14:33:54 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 14:33:54 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 14:33:54 - INFO - 支持的文件类型: .pptx, .bmp, .txt, .pdf, .doc, .gif, .xls, .jpeg, .tiff, .ppt, .png, .jpg, .xlsx, .docx
+2025-03-23 14:33:54 - INFO - 正在初始化PaddleOCR...
+2025-03-23 14:33:55 - INFO - PaddleOCR初始化成功
+2025-03-23 14:33:55 - INFO - 找到 3 个文件待处理
+2025-03-23 14:33:55 - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
+2025-03-23 14:33:55 - INFO - 文件大小: 40746.44 KB
+2025-03-23 14:33:55 - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
+2025-03-23 14:46:59 - WARNING - 程序已中断
+2025-03-23 14:46:59 - INFO - 
+最终内存使用情况:
+2025-03-23 14:46:59 - INFO -   - 初始内存: 276.62 MB
+2025-03-23 14:46:59 - INFO -   - 峰值内存: 276.62 MB
+2025-03-23 14:46:59 - INFO -   - 最终内存: 5902.44 MB
+2025-03-23 14:46:59 - INFO -   - 内存增长: 5625.86 MB
+2025-03-23 15:21:44 - DEBUG - 创建目录: raw
+2025-03-23 15:21:44 - DEBUG - 创建目录: output
+2025-03-23 15:21:44 - DEBUG - 创建目录: temp
+2025-03-23 15:21:44 - INFO - 文档压缩工具初始化完成
+2025-03-23 15:21:44 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 15:21:44 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 15:21:44 - INFO - 支持的文件类型: .doc, .gif, .pdf, .bmp, .png, .xlsx, .txt, .docx, .jpeg, .jpg, .tiff, .pptx, .ppt, .xls
+2025-03-23 15:21:44 - INFO - 找到 3 个文件待处理
+2025-03-23 15:21:44 - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:21:44 - INFO - 文件大小: 40746.44 KB
+2025-03-23 15:21:44 - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:23:39 - WARNING - 程序已中断
+2025-03-23 15:23:39 - INFO - 
+最终内存使用情况:
+2025-03-23 15:23:39 - INFO -   - 初始内存: 449.57 MB
+2025-03-23 15:23:39 - INFO -   - 峰值内存: 449.57 MB
+2025-03-23 15:23:39 - INFO -   - 最终内存: 4165.25 MB
+2025-03-23 15:23:39 - INFO -   - 内存增长: 3715.68 MB
+2025-03-23 15:24:48 - DEBUG - 创建目录: raw
+2025-03-23 15:24:48 - DEBUG - 创建目录: output
+2025-03-23 15:24:48 - DEBUG - 创建目录: temp
+2025-03-23 15:24:48 - INFO - 文档压缩工具初始化完成
+2025-03-23 15:24:48 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 15:24:48 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 15:24:48 - INFO - 支持的文件类型: .ppt, .jpg, .tiff, .bmp, .pdf, .png, .pptx, .txt, .gif, .doc, .xls, .jpeg, .xlsx, .docx
+2025-03-23 15:24:48 - INFO - 找到 3 个文件待处理
+2025-03-23 15:24:48 - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:24:48 - INFO - 文件大小: 40746.44 KB
+2025-03-23 15:24:48 - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:25:05 - WARNING - 程序已中断
+2025-03-23 15:25:05 - INFO - 
+最终内存使用情况:
+2025-03-23 15:25:05 - INFO -   - 初始内存: 449.94 MB
+2025-03-23 15:25:05 - INFO -   - 峰值内存: 449.94 MB
+2025-03-23 15:25:05 - INFO -   - 最终内存: 3344.38 MB
+2025-03-23 15:25:05 - INFO -   - 内存增长: 2894.44 MB
+2025-03-23 15:27:57 - DEBUG - 创建目录: raw
+2025-03-23 15:27:57 - DEBUG - 创建目录: output
+2025-03-23 15:27:57 - DEBUG - 创建目录: temp
+2025-03-23 15:27:57 - INFO - 文档压缩工具初始化完成
+2025-03-23 15:27:57 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 15:27:57 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 15:27:57 - INFO - 支持的文件类型: .pdf, .png, .txt, .bmp, .tiff, .xls, .pptx, .docx, .ppt, .xlsx, .jpeg, .gif, .jpg, .doc
+2025-03-23 15:27:57 - INFO - 找到 3 个文件待处理
+2025-03-23 15:27:57 - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:27:57 - INFO - 文件大小: 40746.44 KB
+2025-03-23 15:27:57 - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:28:50 - WARNING - 程序已中断
+2025-03-23 15:31:29 - DEBUG - 创建目录: raw
+2025-03-23 15:31:29 - DEBUG - 创建目录: output
+2025-03-23 15:31:29 - DEBUG - 创建目录: temp
+2025-03-23 15:31:29 - INFO - 文档压缩工具初始化完成
+2025-03-23 15:31:29 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 15:31:29 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 15:31:29 - INFO - 支持的文件类型: .gif, .xls, .pptx, .jpg, .doc, .jpeg, .bmp, .ppt, .pdf, .xlsx, .docx, .png, .tiff, .txt
+2025-03-23 15:31:29 - INFO - 找到 3 个文件待处理
+2025-03-23 15:31:29 - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:31:29 - INFO - 文件大小: 40746.44 KB
+2025-03-23 15:31:29 - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:31:36 - WARNING - 程序已中断
+2025-03-23 15:39:13 - DEBUG - 创建目录: raw
+2025-03-23 15:39:13 - DEBUG - 创建目录: output
+2025-03-23 15:39:13 - DEBUG - 创建目录: temp
+2025-03-23 15:39:13 - INFO - 文档压缩工具初始化完成
+2025-03-23 15:39:13 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 15:39:13 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 15:39:13 - INFO - 支持的文件类型: .pdf, .doc, .pptx, .tiff, .xls, .xlsx, .png, .gif, .ppt, .txt, .jpg, .jpeg, .bmp, .docx
+2025-03-23 15:39:13 - INFO - 找到 3 个文件待处理
+2025-03-23 15:39:13 - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:39:13 - INFO - 文件大小: 40746.44 KB
+2025-03-23 15:39:13 - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:39:22 - WARNING - 程序已中断
+2025-03-23 15:43:11 - DEBUG - 创建目录: raw
+2025-03-23 15:43:11 - DEBUG - 创建目录: output
+2025-03-23 15:43:11 - DEBUG - 创建目录: temp
+2025-03-23 15:43:11 - INFO - 文档压缩工具初始化完成
+2025-03-23 15:43:11 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 15:43:11 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 15:43:11 - INFO - 支持的文件类型: .gif, .ppt, .docx, .xlsx, .bmp, .tiff, .xls, .pptx, .png, .pdf, .jpeg, .jpg, .txt, .doc
+2025-03-23 15:43:11 - INFO - 找到 3 个文件待处理
+2025-03-23 15:43:11 - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:43:11 - INFO - 文件大小: 40746.44 KB
+2025-03-23 15:43:11 - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:43:31 - WARNING - 程序已中断
+2025-03-23 15:51:14 - DEBUG - 创建目录: raw
+2025-03-23 15:51:14 - DEBUG - 创建目录: output
+2025-03-23 15:51:14 - DEBUG - 创建目录: temp
+2025-03-23 15:51:14 - INFO - 文档压缩工具初始化完成
+2025-03-23 15:51:14 - INFO - 输入目录: E:\Claude_upload\raw
+2025-03-23 15:51:14 - INFO - 输出目录: E:\Claude_upload\output
+2025-03-23 15:51:14 - INFO - 支持的文件类型: .bmp, .xls, .ppt, .jpg, .pptx, .doc, .jpeg, .txt, .gif, .xlsx, .docx, .tiff, .pdf, .png
+2025-03-23 15:51:14 - INFO - 找到 3 个文件待处理
+2025-03-23 15:51:14 - INFO - 开始处理文件: 参考资料1：出海第一站.pdf
+2025-03-23 15:51:14 - INFO - 文件大小: 40746.44 KB
+2025-03-23 15:51:14 - INFO - 开始处理PDF文件: 参考资料1：出海第一站.pdf
